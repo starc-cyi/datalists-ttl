@@ -1,0 +1,117 @@
+@Prefix def: <http://data.cyi.ac.cy/def/global/> .
+@Prefix person: <http://data.cyi.ac.cy/person/> .
+@Prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@Prefix dc: <http://purl.org/dc/terms/> .
+@Prefix dce: <http://purl.org/dc/elements/1.1/> .
+@Prefix dcmi: <http://purl.org/dc/dcmitype/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+#----------------------------------------#
+# People --------------------------------#
+#----------------------------------------#
+
+<http://data.cyi.ac.cy/graphs/person/i001> {
+    person:i001 a foaf:Person;
+                a cidoc:E21_Person;
+                a dc:Agent;
+                foaf:name "Christos Koumenides";
+                rdfs:label "Christos";
+                dc:identifier "001";
+                rdfs:seeAlso <http://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/160-george-artopoulos.html> .
+}
+
+<http://data.cyi.ac.cy/graphs/person/i002> {
+    person:i002 a foaf:Person;
+                a cidoc:E21_Person;
+                a dc:Agent;
+                foaf:name "Foo Bar 2";
+                rdfs:label "Foo Bar";
+                dc:identifier "002";
+                rdfs:seeAlso <> .
+}
+
+<http://data.cyi.ac.cy/graphs/person/i003> {
+    person:i003 a foaf:Person;
+                a cidoc:E21_Person;
+                a dc:Agent;
+                foaf:name "Foo Bar 2";
+                rdfs:label "Foo Bar";
+                dc:identifier "003";
+                rdfs:seeAlso <> .
+}
+
+<http://data.cyi.ac.cy/graphs/person/i004> {
+    person:i004 a foaf:Person;
+                a cidoc:E21_Person;
+                a dc:Agent;
+                foaf:name "Foo Bar 2";
+                rdfs:label "Foo Bar";
+                dc:identifier "004";
+                rdfs:seeAlso <> .
+}
+
+<http://data.cyi.ac.cy/graphs/person/i005> {
+    person:i005 a foaf:Person;
+                a cidoc:E21_Person;
+                a dc:Agent;
+                foaf:name "Foo Bar 2";
+                rdfs:label "Foo Bar";
+                dc:identifier "005";
+                rdfs:seeAlso <> .
+}
+<http://data.cyi.ac.cy/graphs/person/i006> {
+    person:i006 a foaf:Person;
+                a cidoc:E21_Person;
+                a dc:Agent;
+                foaf:name "Foo Bar 2";
+                rdfs:label "Foo Bar";
+                dc:identifier "006";
+                rdfs:seeAlso <> .
+}
+
+<http://data.cyi.ac.cy/graphs/person/i007> {
+    person:i007 a foaf:Person;
+                a cidoc:E21_Person;
+                a dc:Agent;
+                foaf:name "Foo Bar 2";
+                rdfs:label "Foo Bar";
+                dc:identifier "007";
+                rdfs:seeAlso <> .
+}
+
+<http://data.cyi.ac.cy/graphs/person/i008> {
+    person:i008 a foaf:Person;
+                a cidoc:E21_Person;
+                a dc:Agent;
+                foaf:name "Foo Bar 2";
+                rdfs:label "Foo Bar";
+                dc:identifier "008";
+                rdfs:seeAlso <> .
+}
+
+<http://data.cyi.ac.cy/graphs/person/i009> {
+    person:i009 a foaf:Person;
+                a cidoc:E21_Person;
+                a dc:Agent;
+                foaf:name "Foo Bar 2";
+                rdfs:label "Foo Bar";
+                dc:identifier "009";
+                rdfs:seeAlso <> .
+}
+
+<http://data.cyi.ac.cy/graphs/person/i010> {
+    person:i010 a foaf:Person;
+                a cidoc:E21_Person;
+                a dc:Agent;
+                foaf:name "Foo Bar 2";
+                rdfs:label "Foo Bar";
+                dc:identifier "010";
+                rdfs:seeAlso <> .
+}
+
+
+
