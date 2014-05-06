@@ -1,0 +1,144 @@
+@Prefix def: <http://data.cyi.ac.cy/def/global/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@Prefix dc: <http://purl.org/dc/terms/> .
+@Prefix dce: <http://purl.org/dc/elements/1.1/> .
+@Prefix dcmi: <http://purl.org/dc/dcmitype/> .
+
+
+<http://data.cyi.ac.cy/graphs/defs> {
+
+    #--------------------------------------------#
+    # Classes -----------------------------------#
+    #--------------------------------------------#
+
+    ##### Equipment ###############
+    
+    def:CYIEquipment rdfs:subClassOf cidoc:Thing;
+            rdfs:comment "Tools, hardware/software used at the Cyprus Institute";
+            rdfs:label "Equipment".
+
+    def:CYISoftware rdfs:subClassOf def:CYIEquipment;
+            rdfs:subClassOf dcmi:Software;
+            rdfs:subClassOf cidoc:E28_Conceptual_Object;
+            rdfs:comment "Software used at the Cyprus Institute.";
+            rdfs:label "Software".
+
+    def:CYIHardware rdfs:subClassOf def:CYIEquipment;
+            rdfs:subClassOf dcmi:PhysicalObject;
+            rdfs:subClassOf cidoc:E22_Man_Made_Object;
+            rdfs:comment "Hardware used at the Cyprus Institute.";
+            rdfs:label "Hardware".
+
+
+    ##### Camera ##################
+
+    def:CYICamera rdfs:subClassOf def:CYIHardware;
+            rdfs:comment "Camera used at the Cyprus Institute.";
+            rdfs:label "Camera".
+
+
+    ##### Lenses ##################
+
+    def:CYILens rdfs:subClassOf def:CYIHardware;
+            rdfs:comment "Lens used at the Cyprus Institute.";
+            rdfs:label "Lens".
+
+    def:CYIZoomLens rdfs:subClassOf def:CYILens;
+            rdfs:comment "Lens with variable focal length used at the Cyprus Institute.";
+            rdfs:label "Zoom Lens".
+
+    def:CYIFixedLens rdfs:subClassOf def:CYILens;
+            rdfs:comment "Lens with fixed focal length used at the Cyprus Institute.";
+            rdfs:label "Fixed Lens".
+
+
+    ##### Scanners ################
+
+    def:CYIScanner rdfs:subClassOf def:CYIHardware;
+            rdfs:comment "Scanner used at the Cyprus Institute.";
+            rdfs:label "Scanner".
+
+
+    ##### GEO Equipment ###########
+
+    def:CYITotalStation rdfs:subClassOf def:CYIHardware;
+            rdfs:comment "TotalStation used at the Cyprus Institute.";
+            rdfs:label "TotalStation".
+
+    def:CYIGPSSystem rdfs:subClassOf def:CYIHardware;
+            rdfs:comment "GPS system used at the Cyprus Institute.";
+            rdfs:label "GPS System" .
+
+
+    ##### Place ###################
+    
+    def:Place rdfs:subclassOf E53_Place;
+              rdfs:subClassOf dc:Location;
+              rdfs:label "Place".
+
+
+    ##### Dimensions ##############
+
+    def:FixedFocalLength ...
+
+    def:VariableFocalLength ...
+
+    def:CameraResolution rdfs:subClassOf cidoc:E54_Dimension;
+            rdfs:comment "The resolution of a camera, typically given in mega pixels.";
+            rdfs:label "Camera Resolution".
+
+
+    #------------------------------------------#
+    # Properties ------------------------------#
+    #------------------------------------------#
+
+    def:focalLength ...
+    
+    def:minValue ...
+
+    def:maxValue ...
+
+    def:latitude ...
+ 
+    def:longitude ...
+
+    def:pointsSecond a rdf:Property;
+            rdfs:domain def:CYIScanner;
+            rdfs:range xsd:integer;
+            rdfs:label "Points Second";
+            rdfs:comment "".
+
+    def:cameraResolution a rdf:Property;
+            rdfs:domain def:CYIHardware;
+            rdfs:range def:CameraResolution;
+            rdfs:label "Camera Resolution";
+            rdfs:comment "The resolution of a camera, typical given in mega pixels. This has domain CYI Hardware as it may appear as an attribute of integrated cameras inside laser scanners.".
+
+    def:technology a rdf:Property;
+            rdfs:domain def:CYIScanner;
+            rdfs:range xsd:string;
+            rdfs:label "Technology";
+            rdfs:comment "".
+
+    def:integratedCamera a rdf:Property;
+            rdfs:domain def:CYIScanner;
+            rdfs:range xsd:boolean;
+            rdfs:label "Integrated Camera";
+            rdfs:comment "Whether a scanner has an integrated camera. Takes on values from the set {true, false}".
+
+    def:version a rdf:Property;
+            rdfs:domain def:CYIEquipment;
+            rdfs:range xsd:string;
+            rdfs:label "Version";
+            rdfs:comment "The version of a hardware/software tool.".
+
+    def:serialNumber a rdf:Property;
+            rdfs:domain def:CYIEquipment;
+            rdfs:range sd:string;
+            rdfs:label "Serial Number";
+            rdfs:comment "The serial number associated with a hardware/software tool.".
+
+}
