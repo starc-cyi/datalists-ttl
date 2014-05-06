@@ -1,0 +1,61 @@
+@Prefix def: <http://data.cyi.ac.cy/def/global/> .
+@Prefix software: <http://data.cyi.ac.cy/software/> .
+@Prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@Prefix dc: <http://purl.org/dc/terms/> .
+@Prefix dce: <http://purl.org/dc/elements/1.1/> .
+@Prefix dcmi: <http://purl.org/dc/dcmitype/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+#----------------------------------------#
+# Software ------------------------------#
+#----------------------------------------#
+
+<http://data.cyi.ac.cy/graphs/software/i001> {
+    software:i001 a def:CYISoftware; 
+                  dce:identifier "001";
+                  dce:title "Meshlab";
+                  def:version "1.3.2";
+                  rdfs:label "Meshlab 1.3.2".
+}
+
+<http://data.cyi.ac.cy/graphs/software/i002> {
+    software:i002 a def:CYISoftware; 
+                  dce:identifier "002";
+                  dce:title "Autodesk 123D Catch";
+                  rdfs:label "Audodesk 123D Catch".
+}
+
+<http://data.cyi.ac.cy/graphs/software/i003> {
+    software:i003 a def:CYISoftware; 
+                  dce:identifier "003";
+                  dce:title "Menci Umap";
+                  rdfs:label "Menci Umap".
+}
+
+<http://data.cyi.ac.cy/graphs/software/i004> {
+    software:i004 a def:CYISoftware; 
+                  dce:identifier "004";
+                  dce:title "Menci Zmap";
+                  rdfs:label "Menci Zmap".
+}
+
+<http://data.cyi.ac.cy/graphs/software/i005> {
+    software:i005 a def:CYISoftware; 
+                  dce:identifier "005";
+                  dce:title "GIMP2";
+                  rdfs:label "GIMP2".
+}
+
+<http://data.cyi.ac.cy/graphs/software/i006> {
+    software:i006 a def:CYISoftware; 
+                  dce:identifier "006";
+                  dce:title "Light Room";
+                  rdfs:label "Light Room".
+}
+
+
+
+
