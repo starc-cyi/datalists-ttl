@@ -1,0 +1,60 @@
+@Prefix def: <http://data.cyi.ac.cy/def/global/> .
+@Prefix place: <http://data.cyi.ac.cy/place/> .
+@Prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@Prefix dc: <http://purl.org/dc/terms/> .
+@Prefix dce: <http://purl.org/dc/elements/1.1/> .
+@Prefix dcmi: <http://purl.org/dc/dcmitype/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+
+#-----------------------------------------#
+# Places ---------------------------------#
+#-----------------------------------------#
+
+<http://data.cyi.ac.cy/graphs/place/i001> {
+    place:i001 a def:Place;
+               dc:identifier "001";
+               rdfs:label "Mesa Geitonia";
+               def:historicalName "";
+               def:cadastralReference "xyz";
+               def:spatialReferenceSystem "xyz";
+               def:latitude "123";
+               def:longitude "123";
+               owl:sameAs <http://sws.geonames.org/123> ; ### GEONAMES URL
+               owl:sameAs <http://wikipedia.org/XYZ> ; ### WIKIPEDIA URL
+               cidoc:P89_falls_within place:i002 . ### Geopolitical Area?
+}
+
+
+<http://data.cyi.ac.cy/graphs/place/i002> {
+    place:i002 a def:Place;
+               dc:identifier "002";
+               rdfs:label "Limassol";
+               def:historicalName "";
+               def:latitude "123";
+               def:longitude "123";
+               owl:sameAs <http://sws.geonames.org/123> ; ### GEONAMES URL
+               owl:sameAs <http://wikipedia.org/XYZ> ; ### WIKIPEDIA URL
+               cidoc:P89_falls_within place:i002 . ### Geopolitical Area?
+}
+
+
+<http://data.cyi.ac.cy/graphs/place/i003> {
+    place:i003 a def:Place;
+               dc:identifier "003";
+               rdfs:label "Cyprus";
+               def:historicalName "";
+               def:cadastralReference "xyz";
+               def:spatialReferenceSystem "xyz";
+               def:latitude "123";
+               def:longitude "123";
+               owl:sameAs <http://sws.geonames.org/123> ; ### GEONAMES URL
+               owl:sameAs <http://wikipedia.org/XYZ> ; ### WIKIPEDIA URL
+               cidoc:P89_falls_within place:i002 . ### Geopolitical Area?
+}
+
+
