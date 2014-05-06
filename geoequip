@@ -1,0 +1,37 @@
+@Prefix def: <http://data.cyi.ac.cy/def/global/> .
+@Prefix gpssystem: <http://data.cyi.ac.cy/hardware/geo/gps/> .
+@Prefix totalstation: <http://data.cyi.ac.cy/hardware/geo/totalstation/> .
+@Prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@Prefix dc: <http://purl.org/dc/terms/> .
+@Prefix dce: <http://purl.org/dc/elements/1.1/> .
+@Prefix dcmi: <http://purl.org/dc/dcmitype/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+#----------------------------------------#
+# Total Station -------------------------#
+#----------------------------------------#
+
+<http://data.cyi.ac.cy/graphs/totalstation/i001> {
+    totalstation:i001 a def:CYITotalStation; 
+            dce:identifier "001";
+            dce:title "Leica Viva TS11";
+            def:serialNumber "1619681".        
+}
+
+
+#----------------------------------------#
+# GPS -----------------------------------#
+#----------------------------------------#
+
+<http://data.cyi.ac.cy/graphs/gps/i001> {
+    gpssystem:i001 a def:CYIGPSSystem; 
+            dce:identifier "001";
+            dce:title "Leica Viva GNSS (GS10, GS15)".
+}
+
+
+
+
