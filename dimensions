@@ -1,0 +1,110 @@
+@Prefix def: <http://data.cyi.ac.cy/def/global/> .
+@Prefix focalLength: <http://data.cyi.ac.cy/dimension/focallength/> .
+@Prefix cameraResolution: <http://data.cyi.ac.cy/dimension/cameraresolution/> .
+@Prefix dimensionType: <http://data.cyi.ac.cy/dimension/type/> .
+@Prefix dimensionValue: <http://data.cyi.ac.cy/dimension/value/> .
+@Prefix dimensionUnit: <http://data.cyi.ac.cy/dimension/unit/> .
+@Prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@Prefix dc: <http://purl.org/dc/terms/> .
+@Prefix dce: <http://purl.org/dc/elements/1.1/> .
+@Prefix dcmi: <http://purl.org/dc/dcmitype/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+<http://data.cyi.ac.cy/graphs/dimensions> {
+      
+    
+    #------------------------------------------#
+    # Dimensions ------------------------------#
+    #------------------------------------------#
+
+    focalLength:i35mm a def:FixedFocalLength;
+         rdfs:label "Focal Length: 35 mm";
+         cidoc:P90_has_value dimensionValue:i35;
+         cidoc:P91_has_unit dimensionUnit:imm.
+    
+    focalLength:i20mm a def:FixedFocalLength;
+         rdfs:label "Focal Length: 20 mm";
+         cidoc:P90_has_value dimensionValue:i20;
+         cidoc:P91_has_unit dimensionUnit:imm.
+
+    focalLength:i24mm a def:FixedFocalLength;
+         rdfs:label "Focal Length: 24 mm";
+         cidoc:P90_has_value dimensionValue:i24;
+         cidoc:P91_has_unit dimensionUnit:imm.
+
+    focalLength:i105mm a def:FixedFocalLength;
+         rdfs:label "Focal Length: 105 mm";
+         cidoc:P90_has_value dimensionValue:i105;
+         cidoc:P91_has_unit dimensionUnit:imm.
+
+    focalLength:i70mm200mm a def:VariableFocalLength;
+         rdfs:label "Focal Length: 70mm min, 200mm max";
+         def:minValue dimensionValue:i70;
+         def:maxValue dimensionValue:i200;
+         cidoc:P91_has_unit dimensionUnit:imm.
+
+    cameraResolution:i18mpx a def:CameraResolution;
+         rdfs:label "Camera Resolution: 18 Mpx";
+         cidoc:P90_has_value dimensionValue:i18;
+         cidoc:P91_has_unit dimensionUnit:impx.
+
+    cameraResolution:i3mpx a def:CameraResolution;
+         rdfs:label "Camera Resolution: 3 Mpx";
+         cidoc:P90_has_value dimensionValue:i3;
+         cidoc:P91_has_unit dimensionUnit:impx.
+
+    cameraResolution:i24-5mpx a def:CameraResolution;
+         rdfs:label "Camera Resolution: 24.5 Mpx";
+         cidoc:P90_has_value dimensionValue:i24-5;
+         cidoc:P91_has_unit dimensionUnit:impx.
+
+
+    #------------------------------------------#
+    # Values ----------------------------------#
+    #------------------------------------------#
+
+    dimensionValue:i18 a cidoc:E60_Number;
+        rdfs:label "18".
+    
+    dimensionValue:i3 a cidoc:E60_Number;
+        rdfs:label "3".
+
+    dimensionValue:i24-5 a cidoc:E60_Number;
+        rdfs:label "24.5".
+
+    dimensionValue:i35 a cidoc:E60_Number;
+        rdfs:label "35".
+
+    dimensionValue:i20 a cidoc:E60_Number;
+        rdfs:label "20".
+
+    dimensionValue:i24 a cidoc:E60_Number;
+        rdfs:label "24".
+
+    dimensionValue:i105 a cidoc:E60_Number;
+        rdfs:label "105".
+
+    dimensionValue:i70 a cidoc:E60_Number;
+        rdfs:label "70".
+
+    dimensionValue:i200 a cidoc:E60_Number;
+        rdfs:label "200".
+
+
+    #------------------------------------------#
+    # Units -----------------------------------#
+    #------------------------------------------#
+
+    dimensionUnit:imm a cidoc:E58_Measurement_Unit;
+        rdfs:comment "mili meters";
+        rdfs:label "mm". 
+
+    dimensionUnit:impx a cidoc:E58_Measurement_Unit;
+        rdfs:comment "mega pixels";
+        rdfs:label "mpx". 
+
+}
+
