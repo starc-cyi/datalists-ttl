@@ -1,0 +1,46 @@
+@Prefix def: <http://data.cyi.ac.cy/def/global/> .
+@Prefix scanner: <http://data.cyi.ac.cy/hardware/scanner/> .
+@Prefix cameraResolution: <http://data.cyi.ac.cy/dimension/cameraresolution/> .
+@Prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@Prefix dc: <http://purl.org/dc/terms/> .
+@Prefix dce: <http://purl.org/dc/elements/1.1/> .
+@Prefix dcmi: <http://purl.org/dc/dcmitype/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+#----------------------------------------#
+# Scanners ------------------------------#
+#----------------------------------------#
+
+<http://data.cyi.ac.cy/graphs/scanners/i001> {
+    scanner:i001 a def:CYIScanner; 
+            dce:identifier "001";
+            dce:title "NextEngine Desktop 3D Scanner";
+            def:serialNumber "01091067533";
+            def:integratedCamera "true"^^xsd:Boolean;
+            def:technology "Multi-stripe laser triangulation (MLT)";
+            def:cameraResolution cameraResolution:i3mpx;
+            def:pointsSecond "5000".
+}
+
+<http://data.cyi.ac.cy/graphs/scanners/i002> {
+    scanner:i002 a def:CYIScanner; 
+            dce:identifier "002";
+            dce:title "Surphaser 25 HSX";
+            def:serialNumber "BS-SCHSX025818";
+            def:integratedCamera "false"^^xsd:Boolean;
+            def:technology "Phase Shift";
+            def:pointsSecond "1000000".
+}
+
+
+
+
+
+
+
+
+
+
