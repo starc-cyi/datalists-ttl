@@ -18,18 +18,18 @@
     person:i001 a foaf:Person;
                 a cidoc:E21_Person;
                 a dc:Agent;
-                foaf:name "Christos Koumenides xxx";
-                rdfs:label "Christos";
+                foaf:name "Kyriaki Yiakoupi";
+                rdfs:label "Kyriaki Yiakoupi";
                 dc:identifier "001";
-                rdfs:seeAlso <http://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/160-george-artopoulos.html> .
+                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/starc/about-the-center/starc-our-people/itemlist/user/97-kyriaki-yiakoupi.html> .
 }
 
 <http://data.cyi.ac.cy/graphs/person/i002> {
     person:i002 a foaf:Person;
                 a cidoc:E21_Person;
                 a dc:Agent;
-                foaf:name "Foo Bar 2";
-                rdfs:label "Foo Bar";
+                foaf:name "Foo";
+                rdfs:label "Foo";
                 dc:identifier "002";
                 rdfs:seeAlso <> .
 }
@@ -38,8 +38,8 @@
     person:i003 a foaf:Person;
                 a cidoc:E21_Person;
                 a dc:Agent;
-                foaf:name "Foo Bar 2";
-                rdfs:label "Foo Bar";
+                foaf:name "Foo";
+                rdfs:label "Foo";
                 dc:identifier "003";
                 rdfs:seeAlso <> .
 }
@@ -48,8 +48,8 @@
     person:i004 a foaf:Person;
                 a cidoc:E21_Person;
                 a dc:Agent;
-                foaf:name "Foo Bar 2";
-                rdfs:label "Foo Bar";
+                foaf:name "Foo";
+                rdfs:label "Foo";
                 dc:identifier "004";
                 rdfs:seeAlso <> .
 }
@@ -58,8 +58,8 @@
     person:i005 a foaf:Person;
                 a cidoc:E21_Person;
                 a dc:Agent;
-                foaf:name "Foo Bar 2";
-                rdfs:label "Foo Bar";
+                foaf:name "Foo";
+                rdfs:label "Foo";
                 dc:identifier "005";
                 rdfs:seeAlso <> .
 }
@@ -67,8 +67,8 @@
     person:i006 a foaf:Person;
                 a cidoc:E21_Person;
                 a dc:Agent;
-                foaf:name "Foo Bar 2";
-                rdfs:label "Foo Bar";
+                foaf:name "Foo";
+                rdfs:label "Foo";
                 dc:identifier "006";
                 rdfs:seeAlso <> .
 }
@@ -77,8 +77,8 @@
     person:i007 a foaf:Person;
                 a cidoc:E21_Person;
                 a dc:Agent;
-                foaf:name "Foo Bar 2";
-                rdfs:label "Foo Bar";
+                foaf:name "Foo";
+                rdfs:label "Foo";
                 dc:identifier "007";
                 rdfs:seeAlso <> .
 }
@@ -87,8 +87,8 @@
     person:i008 a foaf:Person;
                 a cidoc:E21_Person;
                 a dc:Agent;
-                foaf:name "Foo Bar 2";
-                rdfs:label "Foo Bar";
+                foaf:name "Foo";
+                rdfs:label "Foo";
                 dc:identifier "008";
                 rdfs:seeAlso <> .
 }
@@ -97,8 +97,8 @@
     person:i009 a foaf:Person;
                 a cidoc:E21_Person;
                 a dc:Agent;
-                foaf:name "Foo Bar 2";
-                rdfs:label "Foo Bar";
+                foaf:name "Foo";
+                rdfs:label "Foo";
                 dc:identifier "009";
                 rdfs:seeAlso <> .
 }
@@ -107,8 +107,8 @@
     person:i010 a foaf:Person;
                 a cidoc:E21_Person;
                 a dc:Agent;
-                foaf:name "Foo Bar 2";
-                rdfs:label "Foo Bar";
+                foaf:name "Foo";
+                rdfs:label "Foo";
                 dc:identifier "010";
                 rdfs:seeAlso <> .
 }
