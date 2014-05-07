@@ -18,7 +18,7 @@
     person:i001 a foaf:Person;
                 a cidoc:E21_Person;
                 a dc:Agent;
-                foaf:name "Christos Koumenides";
+                foaf:name "Christos Koumenides xxx";
                 rdfs:label "Christos";
                 dc:identifier "001";
                 rdfs:seeAlso <http://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/160-george-artopoulos.html> .
