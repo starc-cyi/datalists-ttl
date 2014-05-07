@@ -1,11 +1,11 @@
-@Prefix def: <http://data.cyi.ac.cy/def/global/> .
-@Prefix camera: <http://data.cyi.ac.cy/hardware/camera/> .
-@Prefix lens: <http://data.cyi.ac.cy/hardware/lens/> .
-@Prefix focalLength: <http://data.cyi.ac.cy/dimension/focallength/> .
-@Prefix cameraResolution: <http://data.cyi.ac.cy/dimension/cameraresolution/> .
-@Prefix dimensionType: <http://data.cyi.ac.cy/dimension/type/> .
-@Prefix dimensionValue: <http://data.cyi.ac.cy/dimension/value/> .
-@Prefix dimensionUnit: <http://data.cyi.ac.cy/dimension/unit/> .
+@Prefix def: <http://data.cyi.ac.cy/ns/def/global/> .
+@Prefix camera: <http://data.cyi.ac.cy/ns/hardware/camera/> .
+@Prefix lens: <http://data.cyi.ac.cy/ns/hardware/lens/> .
+@Prefix focalLength: <http://data.cyi.ac.cy/ns/dimension/focallength/> .
+@Prefix cameraResolution: <http://data.cyi.ac.cy/ns/dimension/cameraresolution/> .
+@Prefix dimensionType: <http://data.cyi.ac.cy/ns/dimension/type/> .
+@Prefix dimensionValue: <http://data.cyi.ac.cy/ns/dimension/value/> .
+@Prefix dimensionUnit: <http://data.cyi.ac.cy/ns/dimension/unit/> .
 @Prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
 @Prefix dc: <http://purl.org/dc/terms/> .
 @Prefix dce: <http://purl.org/dc/elements/1.1/> .
@@ -21,7 +21,7 @@
 #---------------------------------------#
 
 
-<http://data.cyi.ac.cy/graphs/cameras/i001> {
+<http://data.cyi.ac.cy/ns/graphs/cameras/i001> {
     camera:i001 a def:CYICamera;
                 dce:identifier "001";
                 dce:title "Canon EOS 600D";
@@ -29,7 +29,7 @@
                 def:cameraResolution cameraResolution:i18mpx .
 }
 
-<http://data.cyi.ac.cy/graphs/cameras/i002> {
+<http://data.cyi.ac.cy/ns/graphs/cameras/i002> {
     camera:i002 a def:CYICamera;
                 dce:identifier "002";
                 dce:title "Nikon D3x";
@@ -44,7 +44,7 @@
 # Lenses ------------------------------#
 #--------------------------------------#
 
-<http://data.cyi.ac.cy/graphs/lenses/i001> {
+<http://data.cyi.ac.cy/ns/graphs/lenses/i001> {
     lens:i001 a def:CYIFixedLens;
               dce:identifier "001";
               dce:title "Canon EF35mm f/2";
@@ -52,7 +52,7 @@
               def:serialNumber "310462".        
 }
 
-<http://data.cyi.ac.cy/graphs/lenses/i002> {
+<http://data.cyi.ac.cy/ns/graphs/lenses/i002> {
     lens:i002 a def:CYIFixedLens;
               dce:identifier "002";
               dce:title "Canon EF20mm f/2.8 USM";
@@ -60,7 +60,7 @@
               def:serialNumber "85480133".    
 }
 
-<http://data.cyi.ac.cy/graphs/lenses/i004> {
+<http://data.cyi.ac.cy/ns/graphs/lenses/i004> {
     lens:i004 a def:CYIFixedLens;
               dce:identifier "004";
               dce:title "Nikon 24mm PC-E Lens";
@@ -68,7 +68,7 @@
               def:serialNumber "206932".    
 }
 
-<http://data.cyi.ac.cy/graphs/lenses/i005> {
+<http://data.cyi.ac.cy/ns/graphs/lenses/i005> {
     lens:i005 a def:CYIFixedLens;
               dce:identifier "005";
               dce:title "Nikon 105mm Micro Lens";
@@ -76,7 +76,7 @@
               def:serialNumber "352524".    
 }
 
-<http://data.cyi.ac.cy/graphs/lenses/i003 {
+<http://data.cyi.ac.cy/ns/graphs/lenses/i003 {
     lens:i003 a def:CYIZoomLens;
               dce:identifier "003";
               dce:title "Nikon 70-200 2.8 Lens";

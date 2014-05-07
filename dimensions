@@ -1,9 +1,9 @@
-@Prefix def: <http://data.cyi.ac.cy/def/global/> .
-@Prefix focalLength: <http://data.cyi.ac.cy/dimension/focallength/> .
-@Prefix cameraResolution: <http://data.cyi.ac.cy/dimension/cameraresolution/> .
-@Prefix dimensionType: <http://data.cyi.ac.cy/dimension/type/> .
-@Prefix dimensionValue: <http://data.cyi.ac.cy/dimension/value/> .
-@Prefix dimensionUnit: <http://data.cyi.ac.cy/dimension/unit/> .
+@Prefix def: <http://data.cyi.ac.cy/ns/def/global/> .
+@Prefix focalLength: <http://data.cyi.ac.cy/ns/dimension/focallength/> .
+@Prefix cameraResolution: <http://data.cyi.ac.cy/ns/dimension/cameraresolution/> .
+@Prefix dimensionType: <http://data.cyi.ac.cy/ns/dimension/type/> .
+@Prefix dimensionValue: <http://data.cyi.ac.cy/ns/dimension/value/> .
+@Prefix dimensionUnit: <http://data.cyi.ac.cy/ns/dimension/unit/> .
 @Prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
 @Prefix dc: <http://purl.org/dc/terms/> .
 @Prefix dce: <http://purl.org/dc/elements/1.1/> .
@@ -13,7 +13,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 
-<http://data.cyi.ac.cy/graphs/dimensions> {
+<http://data.cyi.ac.cy/ns/graphs/dimensions> {
       
     
     #------------------------------------------#
