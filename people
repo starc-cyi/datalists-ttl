@@ -18,7 +18,7 @@
     person:i001 a foaf:Person;
                 a cidoc:E21_Person;
                 a dc:Agent;
-                foaf:name "Kyriaki Yiakoupi";
+                foaf:name "Kyriaki Yiakoupi fdghohskf";
                 rdfs:label "Kyriaki Yiakoupi";
                 dc:identifier "001";
                 rdfs:seeAlso <https://www.cyi.ac.cy/index.php/starc/about-the-center/starc-our-people/itemlist/user/97-kyriaki-yiakoupi.html> .
