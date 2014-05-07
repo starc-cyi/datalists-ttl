@@ -1,6 +1,6 @@
-@Prefix def: <http://data.cyi.ac.cy/def/global/> .
-@Prefix scanner: <http://data.cyi.ac.cy/hardware/scanner/> .
-@Prefix cameraResolution: <http://data.cyi.ac.cy/dimension/cameraresolution/> .
+@Prefix def: <http://data.cyi.ac.cy/ns/def/global/> .
+@Prefix scanner: <http://data.cyi.ac.cy/ns/hardware/scanner/> .
+@Prefix cameraResolution: <http://data.cyi.ac.cy/ns/dimension/cameraresolution/> .
 @Prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
 @Prefix dc: <http://purl.org/dc/terms/> .
 @Prefix dce: <http://purl.org/dc/elements/1.1/> .
@@ -14,7 +14,7 @@
 # Scanners ------------------------------#
 #----------------------------------------#
 
-<http://data.cyi.ac.cy/graphs/scanners/i001> {
+<http://data.cyi.ac.cy/ns/graphs/scanners/i001> {
     scanner:i001 a def:CYIScanner; 
             dce:identifier "001";
             dce:title "NextEngine Desktop 3D Scanner";
@@ -25,7 +25,7 @@
             def:pointsSecond "5000".
 }
 
-<http://data.cyi.ac.cy/graphs/scanners/i002> {
+<http://data.cyi.ac.cy/ns/graphs/scanners/i002> {
     scanner:i002 a def:CYIScanner; 
             dce:identifier "002";
             dce:title "Surphaser 25 HSX";

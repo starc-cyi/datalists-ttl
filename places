@@ -1,5 +1,5 @@
-@Prefix def: <http://data.cyi.ac.cy/def/global/> .
-@Prefix place: <http://data.cyi.ac.cy/place/> .
+@Prefix def: <http://data.cyi.ac.cy/ns/def/global/> .
+@Prefix place: <http://data.cyi.ac.cy/ns/place/> .
 @Prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
 @Prefix dc: <http://purl.org/dc/terms/> .
 @Prefix dce: <http://purl.org/dc/elements/1.1/> .
@@ -15,7 +15,7 @@
 # Places ---------------------------------#
 #-----------------------------------------#
 
-<http://data.cyi.ac.cy/graphs/place/i001> {
+<http://data.cyi.ac.cy/ns/graphs/place/i001> {
     place:i001 a def:Place;
                dc:identifier "001";
                rdfs:label "Mesa Geitonia";
@@ -30,7 +30,7 @@
 }
 
 
-<http://data.cyi.ac.cy/graphs/place/i002> {
+<http://data.cyi.ac.cy/ns/graphs/place/i002> {
     place:i002 a def:Place;
                dc:identifier "002";
                rdfs:label "Limassol";
@@ -43,7 +43,7 @@
 }
 
 
-<http://data.cyi.ac.cy/graphs/place/i003> {
+<http://data.cyi.ac.cy/ns/graphs/place/i003> {
     place:i003 a def:Place;
                dc:identifier "003";
                rdfs:label "Cyprus";

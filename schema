@@ -1,4 +1,4 @@
-@Prefix def: <http://data.cyi.ac.cy/def/global/> .
+@Prefix def: <http://data.cyi.ac.cy/ns/def/global/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -8,7 +8,7 @@
 @Prefix dcmi: <http://purl.org/dc/dcmitype/> .
 
 
-<http://data.cyi.ac.cy/graphs/defs> {
+<http://data.cyi.ac.cy/ns/graphs/defs> {
 
     #--------------------------------------------#
     # Classes -----------------------------------#
