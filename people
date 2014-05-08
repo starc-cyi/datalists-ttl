@@ -1212,122 +1212,132 @@
                 rdfs:seeAlso <https://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/118-george-tsouloupas.html> .
 }
 
-<http://data.cyi.ac.cy/ns/graphs/person/i010> {
-    person:i010 a foaf:Person;
+<http://data.cyi.ac.cy/ns/graphs/person/i120> {
+    person:i120 a foaf:Person;
                 a cidoc:E21_Person;
                 a dc:Agent;
-                foaf:name "Foo";
-                rdfs:label "Foo";
-                dc:identifier "010";
-                rdfs:seeAlso <> .
+                foaf:name "Filippos Tymvios";
+                rdfs:label "Filippos Tymvios";
+                dc:identifier "120";
+                rdfs:seeAlso <http://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/157-filippos-tymvios.html> .
 }
 
-<http://data.cyi.ac.cy/ns/graphs/person/i010> {
-    person:i010 a foaf:Person;
+<http://data.cyi.ac.cy/ns/graphs/person/i121> {
+    person:i121 a foaf:Person;
                 a cidoc:E21_Person;
                 a dc:Agent;
-                foaf:name "Foo";
-                rdfs:label "Foo";
-                dc:identifier "010";
-                rdfs:seeAlso <> .
+                foaf:name "Patrikios Tymvios";
+                rdfs:label "Patrikios Tymvios";
+                dc:identifier "121";
+                rdfs:seeAlso <http://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/144-patrikios-tymvios.html> .
 }
 
-<http://data.cyi.ac.cy/ns/graphs/person/i010> {
-    person:i010 a foaf:Person;
+<http://data.cyi.ac.cy/ns/graphs/person/i122> {
+    person:i122 a foaf:Person;
                 a cidoc:E21_Person;
                 a dc:Agent;
-                foaf:name "Foo";
-                rdfs:label "Foo";
-                dc:identifier "010";
-                rdfs:seeAlso <> .
+                foaf:name "Evangelos Tyrlis";
+                rdfs:label "Evangelos Tyrlis";
+                dc:identifier "122";
+                rdfs:seeAlso <http://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/74-evangelos-tyrlis.html> .
 }
 
-<http://data.cyi.ac.cy/ns/graphs/person/i010> {
-    person:i010 a foaf:Person;
+<http://data.cyi.ac.cy/ns/graphs/person/i123> {
+    person:i123 a foaf:Person;
                 a cidoc:E21_Person;
                 a dc:Agent;
-                foaf:name "Foo";
-                rdfs:label "Foo";
-                dc:identifier "010";
-                rdfs:seeAlso <> .
+                foaf:name "Alejandro Vaquero Avilés-Casco";
+                rdfs:label "Alejandro Vaquero Avilés-Casco";
+                dc:identifier "123";
+                rdfs:seeAlso <http://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/120-alejandro-vaquero-avil%C3%A9s-casco.html> .
 }
 
-<http://data.cyi.ac.cy/ns/graphs/person/i010> {
-    person:i010 a foaf:Person;
+<http://data.cyi.ac.cy/ns/graphs/person/i124> {
+    person:i124 a foaf:Person;
                 a cidoc:E21_Person;
                 a dc:Agent;
-                foaf:name "Foo";
-                rdfs:label "Foo";
-                dc:identifier "010";
-                rdfs:seeAlso <> .
+                foaf:name "Dina Vlachou";
+                rdfs:label "Dina Vlachou";
+                dc:identifier "124";
+                rdfs:seeAlso <http://www.cyi.ac.cy/eewrc/about-the-center/eewrc-our-people/itemlist/user/204-dina-vlachou.html> .
 }
 
-<http://data.cyi.ac.cy/ns/graphs/person/i010> {
-    person:i010 a foaf:Person;
+<http://data.cyi.ac.cy/ns/graphs/person/i125> {
+    person:i125 a foaf:Person;
                 a cidoc:E21_Person;
                 a dc:Agent;
-                foaf:name "Foo";
-                rdfs:label "Foo";
-                dc:identifier "010";
-                rdfs:seeAlso <> .
+                foaf:name "Evgeny Votyakov";
+                rdfs:label "Evgeny Votyakov";
+                dc:identifier "125";
+                rdfs:seeAlso <http://www.cyi.ac.cy/eewrc/about-the-center/eewrc-our-people/itemlist/user/180-evgeny-votyakov.html> .
 }
 
-<http://data.cyi.ac.cy/ns/graphs/person/i010> {
-    person:i010 a foaf:Person;
+<http://data.cyi.ac.cy/ns/graphs/person/i126> {
+    person:i126 a foaf:Person;
                 a cidoc:E21_Person;
                 a dc:Agent;
-                foaf:name "Foo";
-                rdfs:label "Foo";
-                dc:identifier "010";
-                rdfs:seeAlso <> .
+                foaf:name "Mihalis Vrekoussis";
+                rdfs:label "Mihalis Vrekoussis";
+                dc:identifier "126";
+                rdfs:seeAlso <http://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/155-mihalis-vrekoussis.html> .
 }
 
-<http://data.cyi.ac.cy/ns/graphs/person/i010> {
-    person:i010 a foaf:Person;
+<http://data.cyi.ac.cy/ns/graphs/person/i127> {
+    person:i127 a foaf:Person;
                 a cidoc:E21_Person;
                 a dc:Agent;
-                foaf:name "Foo";
-                rdfs:label "Foo";
-                dc:identifier "010";
-                rdfs:seeAlso <> .
+                foaf:name "Joanna Waldock";
+                rdfs:label "Joanna Waldock";
+                dc:identifier "127";
+                rdfs:seeAlso <http://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/75-joanna-waldock.html> .
 }
 
-<http://data.cyi.ac.cy/ns/graphs/person/i010> {
-    person:i010 a foaf:Person;
+<http://data.cyi.ac.cy/ns/graphs/person/i128> {
+    person:i128 a foaf:Person;
                 a cidoc:E21_Person;
                 a dc:Agent;
-                foaf:name "Foo";
-                rdfs:label "Foo";
-                dc:identifier "010";
-                rdfs:seeAlso <> .
+                foaf:name "Jens Wiegand";
+                rdfs:label "Jens Wiegand";
+                dc:identifier "128";
+                rdfs:seeAlso <http://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/151-jens-wiegand.html> .
 }
 
-<http://data.cyi.ac.cy/ns/graphs/person/i010> {
-    person:i010 a foaf:Person;
+<http://data.cyi.ac.cy/ns/graphs/person/i129> {
+    person:i129 a foaf:Person;
                 a cidoc:E21_Person;
                 a dc:Agent;
-                foaf:name "Foo";
-                rdfs:label "Foo";
-                dc:identifier "010";
-                rdfs:seeAlso <> .
+                foaf:name "Jonathan Williams";
+                rdfs:label "Jonathan Williams";
+                dc:identifier "129";
+                rdfs:seeAlso <http://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/154-jonathan-williams.html> .
 }
 
-<http://data.cyi.ac.cy/ns/graphs/person/i010> {
-    person:i010 a foaf:Person;
+<http://data.cyi.ac.cy/ns/graphs/person/i130> {
+    person:i130 a foaf:Person;
                 a cidoc:E21_Person;
                 a dc:Agent;
-                foaf:name "Foo";
-                rdfs:label "Foo";
-                dc:identifier "010";
-                rdfs:seeAlso <> .
+                foaf:name "Michalis Yiangou";
+                rdfs:label "Michalis Yiangou";
+                dc:identifier "130";
+                rdfs:seeAlso <http://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/146-michalis-yiangou.html> .
 }
 
-<http://data.cyi.ac.cy/ns/graphs/person/i010> {
-    person:i010 a foaf:Person;
+<http://data.cyi.ac.cy/ns/graphs/person/i131> {
+    person:i131 a foaf:Person;
                 a cidoc:E21_Person;
                 a dc:Agent;
-                foaf:name "Foo";
-                rdfs:label "Foo";
-                dc:identifier "010";
-                rdfs:seeAlso <> .
+                foaf:name "Georgios Zittis";
+                rdfs:label "Georgios Zittis";
+                dc:identifier "131";
+                rdfs:seeAlso <http://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/76-georgios-zittis.html> .
+}
+
+<http://data.cyi.ac.cy/ns/graphs/person/i132> {
+    person:i132 a foaf:Person;
+                a cidoc:E21_Person;
+                a dc:Agent;
+                foaf:name "Christos Zoumides";
+                rdfs:label "Christos Zoumides";
+                dc:identifier "132";
+                rdfs:seeAlso <http://www.cyi.ac.cy/eewrc/about-the-center/eewrc-our-people/itemlist/user/238-Christos-Zoumides.html> .
 }
