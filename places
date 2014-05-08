@@ -20,8 +20,6 @@
                dc:identifier "001";
                rdfs:label "Mesa Geitonia";
                def:historicalName "";
-               def:cadastralReference "xyz";
-               def:spatialReferenceSystem "xyz";
                def:latitude "123";
                def:longitude "123";
                owl:sameAs <http://sws.geonames.org/123> ; ### GEONAMES URL
@@ -48,8 +46,6 @@
                dc:identifier "003";
                rdfs:label "Cyprus";
                def:historicalName "";
-               def:cadastralReference "xyz";
-               def:spatialReferenceSystem "xyz";
                def:latitude "123";
                def:longitude "123";
                owl:sameAs <http://sws.geonames.org/123> ; ### GEONAMES URL
