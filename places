@@ -22,9 +22,9 @@
                def:historicalName "";
                def:latitude "123";
                def:longitude "123";
-               owl:sameAs <http://sws.geonames.org/123> ; ### GEONAMES URL
-               owl:sameAs <http://wikipedia.org/XYZ> ; ### WIKIPEDIA URL
-               cidoc:P89_falls_within place:i002 . ### Geopolitical Area?
+               owl:sameAs <http://sws.geonames.org/123> ;
+               owl:sameAs <http://wikipedia.org/XYZ> ;
+               cidoc:P89_falls_within place:i002 .
 }
 
 
@@ -35,9 +35,9 @@
                def:historicalName "";
                def:latitude "123";
                def:longitude "123";
-               owl:sameAs <http://sws.geonames.org/123> ; ### GEONAMES URL
-               owl:sameAs <http://wikipedia.org/XYZ> ; ### WIKIPEDIA URL
-               cidoc:P89_falls_within place:i002 . ### Geopolitical Area?
+               owl:sameAs <http://sws.geonames.org/123> ;
+               owl:sameAs <http://wikipedia.org/XYZ> ;
+               cidoc:P89_falls_within place:i002 .
 }
 
 
@@ -48,9 +48,9 @@
                def:historicalName "";
                def:latitude "123";
                def:longitude "123";
-               owl:sameAs <http://sws.geonames.org/123> ; ### GEONAMES URL
-               owl:sameAs <http://wikipedia.org/XYZ> ; ### WIKIPEDIA URL
-               cidoc:P89_falls_within place:i002 . ### Geopolitical Area?
+               owl:sameAs <http://sws.geonames.org/123> ; 
+               owl:sameAs <http://wikipedia.org/XYZ> ;
+               cidoc:P89_falls_within place:i002 .
 }
 
 
