@@ -14,6 +14,16 @@
     # Classes -----------------------------------#
     #--------------------------------------------#
 
+    ##### Object ###############
+
+    def:ArchaeologicalObject rdfs:subClassOf cidoc:E19_Physical_Object;
+            rdfs:comment "A physical archeological object, such as a gourd, pottery, or other artefact.";
+            rdfs:label "Archaeological Object".
+
+    def:ArchaeologicalObjectType rdfs:subClassOf cidoc:E55_Type;
+            rdfs:comment "The type of a physical archaeological object.";
+            rdfs:label "Archaeological Object Type".
+
     ##### Equipment ###############
     
     def:CYIEquipment rdfs:subClassOf cidoc:Thing;
@@ -32,13 +42,11 @@
             rdfs:comment "Hardware used at the Cyprus Institute.";
             rdfs:label "Hardware".
 
-
     ##### Camera ##################
 
     def:CYICamera rdfs:subClassOf def:CYIHardware;
             rdfs:comment "Camera used at the Cyprus Institute.";
             rdfs:label "Camera".
-
 
     ##### Lenses ##################
 
@@ -54,13 +62,11 @@
             rdfs:comment "Lens with fixed focal length used at the Cyprus Institute.";
             rdfs:label "Fixed Lens".
 
-
     ##### Scanners ################
 
     def:CYIScanner rdfs:subClassOf def:CYIHardware;
             rdfs:comment "Scanner used at the Cyprus Institute.";
             rdfs:label "Scanner".
-
 
     ##### GEO Equipment ###########
 
@@ -72,13 +78,11 @@
             rdfs:comment "GPS system used at the Cyprus Institute.";
             rdfs:label "GPS System" .
 
-
     ##### Place ###################
     
-    def:Place rdfs:subclassOf E53_Place;
+    def:Place rdfs:subClassOf cidoc:E53_Place;
               rdfs:subClassOf dc:Location;
               rdfs:label "Place".
-
 
     ##### Dimensions ##############
 
@@ -89,6 +93,33 @@
     def:CameraResolution rdfs:subClassOf cidoc:E54_Dimension;
             rdfs:comment "The resolution of a camera, typically given in mega pixels.";
             rdfs:label "Camera Resolution".
+    
+    def:Perimeter rdfs:subClassOf cidoc:E54_Dimension;
+            rdfs:comment "The perimeter of an object, digital or physical.";
+            rdfs:label "Perimeter".
+
+    def:Area rdfs:subClassOf cidoc:E54_Dimensions;
+            rdfs:comment "The area of an object, digital or physical";
+            rdfs:label "Area".
+
+    def:Volume rdfs:subClassOf cidoc:E54_Dimension;
+            rdfs:comment "The volume of an object, digital or physical";
+            rdfs:label "Volume".
+
+    def:Height rdfs:subClassOf cidoc:E54_Dimension;
+            rdfs:comment "The height of an object, digital of physical";
+            rdfs:label "Height".
+
+    def:Length rdfs:subClassOf cidoc:E54_Dimension;
+            rdfs:comment "The length of an object, digital or physical";
+            rdfs:label "Length".
+
+    def:Width rdfs:subClassOf cidoc:E54_Dimension;
+            rdfs:comment "The width of an object, digital or physical";
+            rdfs:label "Width".
+
+    def:Altitude rdfs:subClassOf cidoc:E54_Dimension;
+            rdfs:label "Altitude".
 
 
     #------------------------------------------#
@@ -104,6 +135,8 @@
     def:latitude ...
  
     def:longitude ...
+    
+    def:museumInventory ...
 
     def:pointsSecond a rdf:Property;
             rdfs:domain def:CYIScanner;
