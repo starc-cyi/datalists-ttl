@@ -14,28 +14,48 @@
 #-----------------------------------------#
 # Places ---------------------------------#
 #-----------------------------------------#
+# def:historicalName "";
+
 
 <http://data.cyi.ac.cy/ns/graphs/place/i001> {
     place:i001 a def:Place;
                dc:identifier "001";
-               rdfs:label "Mesa Geitonia";
-               def:historicalName "";
-               def:latitude "123";
-               def:longitude "123";
-               owl:sameAs <http://sws.geonames.org/123> ;
-               owl:sameAs <http://wikipedia.org/XYZ> ;
+               rdfs:label "Nicosia";
+               def:latitude "35.166667";
+               def:longitude "33.366667";
+               owl:sameAs <http://sws.geonames.org/146268> ;
+               owl:sameAs <http://en.wikipedia.org/wiki/Nicosia> ;
                cidoc:P89_falls_within place:i002 .
 }
 
+<http://data.cyi.ac.cy/ns/graphs/place/i001> {
+    place:i001 a def:Place;
+               dc:identifier "001";
+               rdfs:label "Cyprus";
+	       cidoc:p1_is_identified_by coordinates:i35-166667_33-366667;
+               owl:sameAs <http://sws.geonames.org/146669> ; 
+               owl:sameAs <http://wikipedia.org/wiki/Cyprus> .
 
-<http://data.cyi.ac.cy/ns/graphs/place/i002> {
-    place:i002 a def:Place;
-               dc:identifier "002";
-               rdfs:label "Limassol";
-               def:historicalName "";
+    coordinates:i35-166667_33-366667 a def:UTMCoordinates;
+	rdfs:label "lat:35.16667, long:33.366667";
+	def:latitude "35.166667";
+        def:longitude "33.366667";
+	def:identifiedBy person:i001.
+}
+
+
+
+
+
+
+
+<http://data.cyi.ac.cy/ns/graphs/place/i003> {
+    place:i003 a def:Place;
+               dc:identifier "003";
+               rdfs:label "Cyprus";
                def:latitude "123";
                def:longitude "123";
-               owl:sameAs <http://sws.geonames.org/123> ;
+               owl:sameAs <http://sws.geonames.org/123> ; 
                owl:sameAs <http://wikipedia.org/XYZ> ;
                cidoc:P89_falls_within place:i002 .
 }
@@ -45,7 +65,6 @@
     place:i003 a def:Place;
                dc:identifier "003";
                rdfs:label "Cyprus";
-               def:historicalName "";
                def:latitude "123";
                def:longitude "123";
                owl:sameAs <http://sws.geonames.org/123> ; 
@@ -54,3 +73,25 @@
 }
 
 
+<http://data.cyi.ac.cy/ns/graphs/place/i003> {
+    place:i003 a def:Place;
+               dc:identifier "003";
+               rdfs:label "Cyprus";
+               def:latitude "123";
+               def:longitude "123";
+               owl:sameAs <http://sws.geonames.org/123> ; 
+               owl:sameAs <http://wikipedia.org/XYZ> ;
+               cidoc:P89_falls_within place:i002 .
+}
+
+
+<http://data.cyi.ac.cy/ns/graphs/place/i003> {
+    place:i003 a def:Place;
+               dc:identifier "003";
+               rdfs:label "Cyprus";
+               def:latitude "123";
+               def:longitude "123";
+               owl:sameAs <http://sws.geonames.org/123> ; 
+               owl:sameAs <http://wikipedia.org/XYZ> ;
+               cidoc:P89_falls_within place:i002 .
+}
