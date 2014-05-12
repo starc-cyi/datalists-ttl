@@ -140,6 +140,8 @@
     
     def:museumInventory ...
 
+    def:displayDate ...
+
     def:pointsSecond a rdf:Property;
             rdfs:domain def:CYIScanner;
             rdfs:range xsd:integer;
