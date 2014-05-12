@@ -1341,3 +1341,21 @@
                 dc:identifier "132";
                 rdfs:seeAlso <http://www.cyi.ac.cy/eewrc/about-the-center/eewrc-our-people/itemlist/user/238-Christos-Zoumides.html> .
 }
+
+<http://data.cyi.ac.cy/ns/graphs/person/i133> {
+    person:i133 a foaf:Person;
+                a cidoc:E21_Person;
+                a dc:Agent;
+                foaf:name "Isabella Atzeni";
+                rdfs:label "Isabella Atzeni";
+                dc:identifier "133".
+}
+
+<http://data.cyi.ac.cy/ns/graphs/person/i134> {
+    person:i134 a foaf:Person;
+                a cidoc:E21_Person;
+                a dc:Agent;
+                foaf:name "Ilenia Galluccio";
+                rdfs:label "Ilenia Galluccio";
+                dc:identifier "134".
+}

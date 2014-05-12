@@ -28,11 +28,12 @@
                cidoc:P89_falls_within place:i002 .
 }
 
+
 <http://data.cyi.ac.cy/ns/graphs/place/i001> {
     place:i001 a def:Place;
                dc:identifier "001";
                rdfs:label "Cyprus";
-	       cidoc:p1_is_identified_by coordinates:i35-166667_33-366667;
+	       cidoc:p87_is_identified_by coordinates:i35-166667_33-366667;
                owl:sameAs <http://sws.geonames.org/146669> ; 
                owl:sameAs <http://wikipedia.org/wiki/Cyprus> .
 
@@ -40,11 +41,27 @@
 	rdfs:label "lat:35.16667, long:33.366667";
 	def:latitude "35.166667";
         def:longitude "33.366667";
-	def:identifiedBy person:i001.
+	def:xyzfounder person:i001;
+	def:xyzsource <http://kati.com>.
 }
 
 
 
+<http://data.cyi.ac.cy/ns/graphs/place/i001> {
+    place:i001 a def:Place;
+               dc:identifier "001";
+               rdfs:label "Cyprus";
+	       cidoc:p87_is_identified_by coordinates:i35-166667_33-366667;
+               owl:sameAs <http://sws.geonames.org/146669> ; 
+               owl:sameAs <http://wikipedia.org/wiki/Cyprus> .
+
+    coordinates:i35-166667_33-366667 a def:UTMCoordinates;
+	rdfs:label "lat:35.16667, long:33.366667";
+	def:latitude "35.166667";
+        def:longitude "33.366667";
+	def:xyzfounder person:i001;
+	def:xyzsource <http://kati.com>.
+}
 
 
 
