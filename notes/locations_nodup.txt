@@ -1,3 +1,59 @@
+Made of Kyriaki:
+
+Cyprus
+
+Nicosia, Cyprus
+Pigenia, Nicosia
+
+Limassol, Cyprus
+Agios Dimitrios, Limassol
+Amathus, Limassol
+Foini, Limassol
+
+Larnaca, Cyprus
+Khirokitia, Larnaca
+Kition, Larnaca
+Kornos, Larnaca
+Hala Sultan Tekke, Larnaca
+Pyrga, Larnaca
+
+Ammochostos (Famagusta), Cyprus
+Enkomi, Famagusta
+Salamis, Famagusta
+Varosia, Famagusta
+Marathovounos, Famagusta
+Lysi, Famagusta
+
+Dherinia, Famagusta
+Agia Marina, Dherinia
+
+Mesaoria, Famagusta
+Assia,Mesaoria
+Prastio, Mesaoria
+
+Paphos, Cyprus
+Droushia, Paphos
+Kampos, Paphos
+Marion, Paphos
+Panayia, Paphos
+
+Kyrenia, Cyprus
+Lapithos, Kyrenia
+
+
+Italy
+
+Sardinia, Italy
+Oristano, Sardinia
+Paulilatino, Sardinia
+
+Israel
+
+Jerusalem, Israel
+Mount Zion, Jerusalem
+
+
+Provided by Christos:
 
 agios dimitrios, limassol, cyprus
 agios georgios hill, nicosia, cyprus
@@ -27,7 +83,3 @@ prastio, mesaoria, cyprus
 pyrga, larnaca, cyprus
 salamis, famagusta, cyprus
 varosia, famagusta, cyprus
-Paulilatino
-Oristano
-Sardinia
-Italy
