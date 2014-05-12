@@ -17,98 +17,477 @@
 # def:historicalName "";
 
 
+
 <http://data.cyi.ac.cy/ns/graphs/place/i001> {
     place:i001 a def:Place;
                dc:identifier "001";
+               rdfs:label "Cyprus";
+	       cidoc:p87_is_identified_by coordinates:i35_33;
+               owl:sameAs <http://sws.geonames.org/146669> ; 
+               owl:sameAs <http://wikipedia.org/wiki/Cyprus> .
+
+    coordinates:i35_33 a def:UTMCoordinates;
+	rdfs:label "lat:35, long:33";
+	def:latitude "35";
+        def:longitude "33";
+	def:xyzfounder person:i001;
+	def:GeoNamessource <http://www.geonames.org/146669/republic-of-cyprus.html>.
+}
+
+
+<http://data.cyi.ac.cy/ns/graphs/place/i002> {
+    place:i002 a def:Place;
+               dc:identifier "002";
                rdfs:label "Nicosia";
-               def:latitude "35.166667";
-               def:longitude "33.366667";
-               owl:sameAs <http://sws.geonames.org/146268> ;
-               owl:sameAs <http://en.wikipedia.org/wiki/Nicosia> ;
-               cidoc:P89_falls_within place:i002 .
-}
+	       cidoc:p87_is_identified_by coordinates:i35-16667_33-36667;
+               owl:sameAs <http://sws.geonames.org/146268> ; 
+               owl:sameAs <http://en.wikipedia.org/wiki/Nicosia>;
+	       cidoc:P89_falls_within place:i001.
 
-
-<http://data.cyi.ac.cy/ns/graphs/place/i001> {
-    place:i001 a def:Place;
-               dc:identifier "001";
-               rdfs:label "Cyprus";
-	       cidoc:p87_is_identified_by coordinates:i35-166667_33-366667;
-               owl:sameAs <http://sws.geonames.org/146669> ; 
-               owl:sameAs <http://wikipedia.org/wiki/Cyprus> .
-
-    coordinates:i35-166667_33-366667 a def:UTMCoordinates;
-	rdfs:label "lat:35.16667, long:33.366667";
-	def:latitude "35.166667";
-        def:longitude "33.366667";
+    coordinates:i35-16667_33-36667 a def:UTMCoordinates;
+	rdfs:label "lat:35.16667, long:33.36667";
+	def:latitude "35.16667";
+        def:longitude "33.36667";
 	def:xyzfounder person:i001;
-	def:xyzsource <http://kati.com>.
+	def:GeoNamessource <http://www.geonames.org/146268/nicosia.html>.
 }
 
 
+<http://data.cyi.ac.cy/ns/graphs/place/i003> {
+    place:i003 a def:Place;
+               dc:identifier "003";
+               rdfs:label "Piyenia";
+	       cidoc:p87_is_identified_by coordinates:i35-16667_32-65417;
+               owl:sameAs <http://sws.geonames.org/146147> ; 
+               owl:sameAs <http://en.wikipedia.org/wiki/Pigenia>;
+	       cidoc:P89_falls_within place:i002.
 
-<http://data.cyi.ac.cy/ns/graphs/place/i001> {
-    place:i001 a def:Place;
-               dc:identifier "001";
-               rdfs:label "Cyprus";
-	       cidoc:p87_is_identified_by coordinates:i35-166667_33-366667;
-               owl:sameAs <http://sws.geonames.org/146669> ; 
-               owl:sameAs <http://wikipedia.org/wiki/Cyprus> .
-
-    coordinates:i35-166667_33-366667 a def:UTMCoordinates;
-	rdfs:label "lat:35.16667, long:33.366667";
-	def:latitude "35.166667";
-        def:longitude "33.366667";
+    coordinates:i35-16667_32-65417 a def:UTMCoordinates;
+	rdfs:label "lat:35.16667, long:32.65417";
+	def:latitude "35.16667";
+        def:longitude "32.65417";
 	def:xyzfounder person:i001;
-	def:xyzsource <http://kati.com>.
+	def:GeoNamessource <http://www.geonames.org/146147/piyenia.html>.
 }
 
 
+<http://data.cyi.ac.cy/ns/graphs/place/i004> { 
+    place:i004 a def:Place;
+               dc:identifier "004";
+               rdfs:label "Limassol";
+	       cidoc:p87_is_identified_by coordinates:i34-68406_33-03794;
+               owl:sameAs <http://sws.geonames.org/146384> ; 
+               owl:sameAs <http://en.wikipedia.org/wiki/Limassol>;
+	       cidoc:P89_falls_within place:i001.
 
-
-<http://data.cyi.ac.cy/ns/graphs/place/i003> {
-    place:i003 a def:Place;
-               dc:identifier "003";
-               rdfs:label "Cyprus";
-               def:latitude "123";
-               def:longitude "123";
-               owl:sameAs <http://sws.geonames.org/123> ; 
-               owl:sameAs <http://wikipedia.org/XYZ> ;
-               cidoc:P89_falls_within place:i002 .
+    coordinates:i34-68406_33-03794 a def:UTMCoordinates;
+	rdfs:label "lat:34.68406, long:33.03794";
+	def:latitude "34.68406";
+        def:longitude "33.03794";
+	def:xyzfounder person:i001;
+	def:GeoNamessource <http://www.geonames.org/146384/limassol.html>.
 }
 
 
-<http://data.cyi.ac.cy/ns/graphs/place/i003> {
-    place:i003 a def:Place;
-               dc:identifier "003";
-               rdfs:label "Cyprus";
-               def:latitude "123";
-               def:longitude "123";
-               owl:sameAs <http://sws.geonames.org/123> ; 
-               owl:sameAs <http://wikipedia.org/XYZ> ;
-               cidoc:P89_falls_within place:i002 .
+<http://data.cyi.ac.cy/ns/graphs/place/i005> {
+    place:i005 a def:Place;
+               dc:identifier "005";
+               rdfs:label "Ayios Dhimitrios";
+	       cidoc:p87_is_identified_by coordinates:i34-925_32-81667;
+               owl:sameAs <http://sws.geonames.org/146733> ; 
+               owl:sameAs <http://en.wikipedia.org/wiki/Ayios_Dhimitrios,_Cyprus>;
+	       cidoc:P89_falls_within place:i004.
+
+    coordinates:i34-925_32-81667 a def:UTMCoordinates;
+	rdfs:label "lat:34.925, long:32.81667";
+	def:latitude "34.925";
+        def:longitude "32.81667";
+	def:xyzfounder person:i001;
+	def:GeoNamessource <http://www.geonames.org/146733/ayios-dhimitrios.html>.
 }
 
 
-<http://data.cyi.ac.cy/ns/graphs/place/i003> {
-    place:i003 a def:Place;
-               dc:identifier "003";
-               rdfs:label "Cyprus";
-               def:latitude "123";
-               def:longitude "123";
-               owl:sameAs <http://sws.geonames.org/123> ; 
-               owl:sameAs <http://wikipedia.org/XYZ> ;
-               cidoc:P89_falls_within place:i002 .
+<http://data.cyi.ac.cy/ns/graphs/place/i006> {
+    place:i006 a def:Place;
+               dc:identifier "006";
+               rdfs:label "Amathus";
+	       rdfs:label "Amathus City-Site";
+	       cidoc:p87_is_identified_by coordinates:i34-71292_33-1429;
+               owl:sameAs <http://sws.geonames.org/146822> ; 
+               owl:sameAs <http://en.wikipedia.org/wiki/Amathus>;
+	       cidoc:P89_falls_within place:i004.
+
+    coordinates:i34-71292_33-1429 a def:UTMCoordinates;
+	rdfs:label "lat:34.71292, long:33.1429";
+	def:latitude "34.71292";
+        def:longitude "33.1429";
+	def:xyzfounder person:i001;
+	def:GeoNamessource <http://www.geonames.org/146822/amathus-city-site.html>.
 }
 
 
-<http://data.cyi.ac.cy/ns/graphs/place/i003> {
-    place:i003 a def:Place;
-               dc:identifier "003";
-               rdfs:label "Cyprus";
-               def:latitude "123";
-               def:longitude "123";
-               owl:sameAs <http://sws.geonames.org/123> ; 
-               owl:sameAs <http://wikipedia.org/XYZ> ;
-               cidoc:P89_falls_within place:i002 .
+<http://data.cyi.ac.cy/ns/graphs/place/i007> {
+    place:i007 a def:Place;
+               dc:identifier "007";
+               rdfs:label "Foini";
+	       rdfs:label "Phini";
+	       cidoc:p87_is_identified_by coordinates:i34-89167_32-8375;
+               owl:sameAs <http://sws.geonames.org/146161> ; 
+               owl:sameAs <http://en.wikipedia.org/wiki/Foini>;
+	       cidoc:P89_falls_within place:i004.
+
+    coordinates:i34-89167_32-8375 a def:UTMCoordinates;
+	rdfs:label "lat:34.89167, long:32.8375";
+	def:latitude "34.89167"; 
+        def:longitude "32.8375";
+	def:xyzfounder person:i001;
+	def:GeoNamessource <http://www.geonames.org/146161/phini.html>.
+}
+
+
+<http://data.cyi.ac.cy/ns/graphs/place/i008> {
+    place:i008 a def:Place;
+               dc:identifier "008";
+               rdfs:label "Larnaca";
+	       cidoc:p87_is_identified_by coordinates:i34-91667_33-62917;
+               owl:sameAs <http://sws.geonames.org/146400> ; 
+               owl:sameAs <http://en.wikipedia.org/wiki/Larnaca>;
+	       cidoc:P89_falls_within place:i001.
+
+    coordinates:i34-91667_33-62917 a def:UTMCoordinates;
+	rdfs:label "lat:34.89167, long:33.62917";
+	def:latitude "34.91667"; 
+        def:longitude "33.62917";
+	def:xyzfounder person:i001;
+	def:GeoNamessource <http://www.geonames.org/146400/larnaca.html>.
+}
+
+
+<http://data.cyi.ac.cy/ns/graphs/place/i009> {
+    place:i009 a def:Place;
+               dc:identifier "009";
+               rdfs:label "Khirokitia";
+	       cidoc:p87_is_identified_by coordinates:i34-79583_33-3375;
+               owl:sameAs <http://sws.geonames.org/146491> ; 
+               owl:sameAs <http://en.wikipedia.org/wiki/Khirokitia>;
+	       cidoc:P89_falls_within place:i008.
+
+    coordinates:i34-79583_33-3375 a def:UTMCoordinates;
+	rdfs:label "lat:34.79583, long:33.3375";
+	def:latitude "34.79583"; 
+        def:longitude "33.3375";
+	def:xyzfounder person:i001;
+	def:GeoNamessource <http://www.geonames.org/146491/khirokitia.html>.
+}
+
+
+<http://data.cyi.ac.cy/ns/graphs/place/i010> {
+    place:i010 a def:Place;
+               dc:identifier "010";
+               rdfs:label "Kition";
+	       rdfs:label "Kition City-Site";
+	       cidoc:p87_is_identified_by coordinates:i34-93333_33-625;
+               owl:sameAs <http://sws.geonames.org/146467> ; 
+               owl:sameAs <http://en.wikipedia.org/wiki/Kition>;
+	       cidoc:P89_falls_within place:i008.
+
+    coordinates:i34-93333_33-625 a def:UTMCoordinates;
+	rdfs:label "lat:34.93333, long:33.625";
+	def:latitude "34.93333"; 
+        def:longitude "33.625";
+	def:xyzfounder person:i001;
+	def:GeoNamessource <http://www.geonames.org/146467/kition-city-site.html>.
+}
+
+
+<http://data.cyi.ac.cy/ns/graphs/place/i011> {
+    place:i011 a def:Place;
+               dc:identifier "011";
+               rdfs:label "Kornos";
+	       cidoc:p87_is_identified_by coordinates:i34-92083_33-39167;
+               owl:sameAs <http://sws.geonames.org/146438> ; 
+               owl:sameAs <http://en.wikipedia.org/wiki/Kornos,_Cyprus>;
+	       cidoc:P89_falls_within place:i008.
+
+    coordinates:i34-92083_33-39167 a def:UTMCoordinates;
+	rdfs:label "lat:34.92083, long:33.39167";
+	def:latitude "34.92083"; 
+        def:longitude "33.39167";
+	def:xyzfounder person:i001;
+	def:GeoNamessource <http://www.geonames.org/146438/kornos.html>.
+}
+
+
+<http://data.cyi.ac.cy/ns/graphs/place/i012> {
+    place:i012 a def:Place;
+               dc:identifier "012";
+               rdfs:label "Dromolaxia Vizatzia/Hala Sultan Tekke";
+	       rdfs:label "Vyzakia City-Site";
+	       cidoc:p87_is_identified_by coordinates:i34-88333_33-60833;
+               owl:sameAs <http://sws.geonames.org/4749> ; 
+               owl:sameAs <http://en.wikipedia.org/wiki/Hala_Sultan_Tekke>;
+	       cidoc:P89_falls_within place:i008.
+
+    coordinates:i34-88333_33-60833 a def:UTMCoordinates;
+	rdfs:label "lat:34.88333, long:33.60833";
+	def:latitude "34.88333"; 
+        def:longitude "33.60833";
+	def:xyzfounder person:i001;
+	def:GeoNamessource <http://www.geonames.org/4749/vyzakia-city-site.html>.
+}
+
+
+<http://data.cyi.ac.cy/ns/graphs/place/i013> {
+    place:i013 a def:Place;
+               dc:identifier "013";
+               rdfs:label "Pyrga";
+	       cidoc:p87_is_identified_by coordinates:i34-925_33-43333;
+               owl:sameAs <http://sws.geonames.org/146108> ; 
+               owl:sameAs <http://en.wikipedia.org/wiki/Pyrga,_Larnaca>;
+	       cidoc:P89_falls_within place:i008.
+
+    coordinates:i34-925_33-43333 a def:UTMCoordinates;
+	rdfs:label "lat:34.925, long:33.43333";
+	def:latitude "34.925"; 
+        def:longitude "33.43333";
+	def:xyzfounder person:i001;
+	def:GeoNamessource <http://www.geonames.org/146108/pyrga.html>.
+}
+
+
+<http://data.cyi.ac.cy/ns/graphs/place/i014> {
+    place:i014 a def:Place;
+               dc:identifier "014";
+               rdfs:label "Famagusta";
+	       rdfs:label "Eparchía Ammochóstou";
+	       cidoc:p87_is_identified_by coordinates:i35-33333_33-86667;
+               owl:sameAs <http://sws.geonames.org/146615> ; 
+               owl:sameAs <http://en.wikipedia.org/wiki/Famagusta>;
+	       cidoc:P89_falls_within place:i001.
+
+    coordinates:i35-33333_33-86667 a def:UTMCoordinates;
+	rdfs:label "lat:35.33333, long:33.86667";
+	def:latitude "35.33333"; 
+        def:longitude "33.86667";
+	def:xyzfounder person:i001;
+	def:GeoNamessource <http://www.geonames.org/146615/eparchia-ammochostou.html>.
+}
+
+
+<http://data.cyi.ac.cy/ns/graphs/place/i015> {
+    place:i015 a def:Place;
+               dc:identifier "015";
+               rdfs:label "Enkomi";
+	       rdfs:label "Engomi";
+	       cidoc:p87_is_identified_by coordinates:i35-1625_33-88333;
+               owl:sameAs <http://sws.geonames.org/146638> ; 
+               owl:sameAs <http://en.wikipedia.org/wiki/Enkomi>;
+	       cidoc:P89_falls_within place:i014.
+
+    coordinates:i35-1625_33-88333 a def:UTMCoordinates;
+	rdfs:label "lat:35.1625, long:33.88333";
+	def:latitude "35.1625"; 
+        def:longitude "33.88333";
+	def:xyzfounder person:i001;
+	def:GeoNamessource <http://www.geonames.org/146638/engomi.html>.
+}
+
+
+<http://data.cyi.ac.cy/ns/graphs/place/i016> {
+    place:i016 a def:Place;
+               dc:identifier "016";
+               rdfs:label "Salamis"; 
+	       rdfs:label "Salamis/Konstantia City-Site";
+	       cidoc:p87_is_identified_by coordinates:i35-17917_33-9;
+               owl:sameAs <http://sws.geonames.org/146099> ; 
+               owl:sameAs <http://en.wikipedia.org/wiki/Salamis,_Cyprus>;
+	       cidoc:P89_falls_within place:i014.
+
+    coordinates:i35-17917_33-9 a def:UTMCoordinates;
+	rdfs:label "lat:35.17917, long:33.9";
+	def:latitude "35.17917"; 
+        def:longitude "33.9";
+	def:xyzfounder person:i001;
+	def:GeoNamessource <http://www.geonames.org/146099/salamis-konstantia-city-site.html>.
+}
+
+
+<http://data.cyi.ac.cy/ns/graphs/place/i017> {
+    place:i017 a def:Place;
+               dc:identifier "017";
+               rdfs:label "Varosha";
+	       cidoc:p87_is_identified_by coordinates:i35-10833_33-95833;
+               owl:sameAs <http://sws.geonames.org/146008> ; 
+               owl:sameAs <http://en.wikipedia.org/wiki/Varosha,_Famagusta>;
+	       cidoc:P89_falls_within place:i014.
+
+    coordinates:i35-10833_33-95833 a def:UTMCoordinates;
+	rdfs:label "lat:35.10833, long:33.95833";
+	def:latitude "35.10833"; 
+        def:longitude "33.95833";
+	def:xyzfounder person:i001;
+	def:GeoNamessource <http://www.geonames.org/146008/varosha.html>.
+}
+
+
+<http://data.cyi.ac.cy/ns/graphs/place/i018> {
+    place:i018 a def:Place;
+               dc:identifier "018";
+               rdfs:label "Marathovounos";
+	       rdfs:label "Marathovouno";
+	       cidoc:p87_is_identified_by coordinates:i35-21667_33-61667;
+               owl:sameAs <http://sws.geonames.org/146336> ; 
+               owl:sameAs <http://en.wikipedia.org/wiki/Marathovounos>;
+	       cidoc:P89_falls_within place:i014.
+
+    coordinates:i35-21667_33-61667 a def:UTMCoordinates;
+	rdfs:label "lat:35.21667, long:33.61667";
+	def:latitude "35.21667"; 
+        def:longitude "33.61667";
+	def:xyzfounder person:i001;
+	def:GeoNamessource <http://www.geonames.org/146336/marathovouno.html>.
+}
+
+
+<http://data.cyi.ac.cy/ns/graphs/place/i019> {
+    place:i019 a def:Place;
+               dc:identifier "019";
+               rdfs:label "Lysi";
+	       cidoc:p87_is_identified_by coordinates:i35-10833_33-68333;
+               owl:sameAs <http://sws.geonames.org/146361> ; 
+               owl:sameAs <http://en.wikipedia.org/wiki/Lysi>;
+	       cidoc:P89_falls_within place:i014.
+
+    coordinates:i35-10833_33-68333 a def:UTMCoordinates;
+	rdfs:label "lat:35.10833, long:33.68333";
+	def:latitude "35.10833"; 
+        def:longitude "33.68333";
+	def:xyzfounder person:i001;
+	def:GeoNamessource <http://www.geonames.org/146361/lysi.html>.
+}
+
+
+<http://data.cyi.ac.cy/ns/graphs/place/i020> {
+    place:i020 a def:Place;
+               dc:identifier "020";
+               rdfs:label "Dherynia";
+	       rdfs:label "Dherinia";
+	       cidoc:p87_is_identified_by coordinates:i35-06667_33-95833;
+               owl:sameAs <http://sws.geonames.org/146661> ; 
+               owl:sameAs <http://en.wikipedia.org/wiki/Dherynia>;
+	       cidoc:P89_falls_within place:i014.
+
+    coordinates:i35-06667_33-95833 a def:UTMCoordinates;
+	rdfs:label "lat:35.06667, long:33.95833";
+	def:latitude "35.06667"; 
+        def:longitude "33.95833";
+	def:xyzfounder person:i001;
+	def:GeoNamessource <http://www.geonames.org/146661/dherinia.html>.
+}
+
+
+<http://data.cyi.ac.cy/ns/graphs/place/i021> {
+    place:i021 a def:Place;
+               dc:identifier "021";
+               rdfs:label "Agía Marína";
+	       cidoc:p87_is_identified_by coordinates:i35-61078_34-37673;
+               owl:sameAs <http://sws.geonames.org/19349> ;
+	       cidoc:P89_falls_within place:i020.
+
+    coordinates:i35-61078_34-37673 a def:UTMCoordinates;
+	rdfs:label "lat:35.61078, long:34.37673";
+	def:latitude "35.61078"; 
+        def:longitude "34.37673";
+	def:xyzfounder person:i001;
+	def:GeoNamessource <http://www.geonames.org/19349/agia-marina.html>.
+}
+
+
+<http://data.cyi.ac.cy/ns/graphs/place/i022> {
+    place:i022 a def:Place;
+               dc:identifier "022";
+               rdfs:label "Mesaoria";
+	       cidoc:p87_is_identified_by coordinates:i35-16667_33-58333;
+               owl:sameAs <http://sws.geonames.org/146306> ; 
+               owl:sameAs <http://en.wikipedia.org/wiki/Mesaoria>;
+	       cidoc:P89_falls_within place:i014.
+
+    coordinates:i35-16667_33-58333 a def:UTMCoordinates;
+	rdfs:label "lat:35.16667, long:33.58333";
+	def:latitude "35.16667"; 
+        def:longitude "33.58333";
+	def:xyzfounder person:i001;
+	def:GeoNamessource <http://www.geonames.org/146306/mesaoria.html>.
+}
+
+
+<http://data.cyi.ac.cy/ns/graphs/place/i023> {
+    place:i023 a def:Place;
+               dc:identifier "023";
+               rdfs:label "Asha";
+	       cidoc:p87_is_identified_by coordinates:i35-15833_33-60833;
+               owl:sameAs <http://sws.geonames.org/146779> ; 
+               owl:sameAs <http://en.wikipedia.org/wiki/Asha,_Cyprus>;
+	       cidoc:P89_falls_within place:i022.
+
+    coordinates:i35-15833_33-60833 a def:UTMCoordinates;
+	rdfs:label "lat:35.15833, long:33.60833";
+	def:latitude "35.15833"; 
+        def:longitude "33.60833";
+	def:xyzfounder person:i001;
+	def:GeoNamessource <http://www.geonames.org/146779/asha.html>.
+}
+
+
+<http://data.cyi.ac.cy/ns/graphs/place/i024> {
+    place:i024 a def:Place;
+               dc:identifier "024";
+               rdfs:label "Prastio";
+	       cidoc:p87_is_identified_by coordinates:i35-175_33-75833;
+               owl:sameAs <http://sws.geonames.org/146122> ; 
+               owl:sameAs <http://en.wikipedia.org/wiki/Prastio,_Famagusta>;
+	       cidoc:P89_falls_within place:i022.
+
+    coordinates:i35-175_33-75833 a def:UTMCoordinates;
+	rdfs:label "lat:35.175, long:33.75833";
+	def:latitude "35.175"; 
+        def:longitude "33.75833";
+	def:xyzfounder person:i001;
+	def:GeoNamessource <http://www.geonames.org/146122/prastio.html>.
+}
+
+
+<http://data.cyi.ac.cy/ns/graphs/place/i025> {
+    place:i025 a def:Place;
+               dc:identifier "025";
+               rdfs:label "Paphos";
+	       cidoc:p87_is_identified_by coordinates:i34-76667_32-41667;
+               owl:sameAs <http://sws.geonames.org/146214> ; 
+               owl:sameAs <http://en.wikipedia.org/wiki/Paphos>;
+	       cidoc:P89_falls_within place:i001.
+
+    coordinates:i34-76667_32-41667 a def:UTMCoordinates;
+	rdfs:label "lat:34.76667, long:32.41667";
+	def:latitude "34.76667"; 
+        def:longitude "32.41667";
+	def:xyzfounder person:i001;
+	def:GeoNamessource <http://www.geonames.org/146214/paphos.html>.
+}
+
+
+<http://data.cyi.ac.cy/ns/graphs/place/i026> {
+    place:i026 a def:Place;
+               dc:identifier "026";
+               rdfs:label "Dhrousha";
+	       cidoc:p87_is_identified_by coordinates:i34-9625_32-4;
+               owl:sameAs <http://sws.geonames.org/146653> ; 
+               owl:sameAs <http://en.wikipedia.org/wiki/Dhrousha>;
+	       cidoc:P89_falls_within place:i026.
+
+    coordinates:i34-9625_32-4 a def:UTMCoordinates;
+	rdfs:label "lat:34.76667, long:32.4";
+	def:latitude "34-9625"; 
+        def:longitude "32.4";
+	def:xyzfounder person:i001;
+	def:GeoNamessource <http://www.geonames.org/146653/dhrousha.html>.
 }

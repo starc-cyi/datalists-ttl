@@ -14,7 +14,7 @@ Larnaca, Cyprus
 Khirokitia, Larnaca
 Kition, Larnaca
 Kornos, Larnaca
-Hala Sultan Tekke, Larnaca
+Hala Sultan Tekke, Larnaca (I got the coordinates from Geoname BUT - MARINA WILL SENT THE COORDINATES IN UTM!!!!!)
 Pyrga, Larnaca
 
 Ammochostos (Famagusta), Cyprus
@@ -51,6 +51,8 @@ Israel
 
 Jerusalem, Israel
 Mount Zion, Jerusalem
+
+Agios Georgios Excavation (PASIDI) missing!!!!!!
 
 
 Provided by Christos:
