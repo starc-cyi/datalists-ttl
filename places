@@ -482,7 +482,7 @@
 	       cidoc:p87_is_identified_by coordinates:i34-9625_32-4;
                owl:sameAs <http://sws.geonames.org/146653> ; 
                owl:sameAs <http://en.wikipedia.org/wiki/Dhrousha>;
-	       cidoc:P89_falls_within place:i026.
+	       cidoc:P89_falls_within place:i025.
 
     coordinates:i34-9625_32-4 a def:UTMCoordinates;
 	rdfs:label "lat:34.76667, long:32.4";
@@ -490,4 +490,245 @@
         def:longitude "32.4";
 	def:xyzfounder person:i001;
 	def:GeoNamessource <http://www.geonames.org/146653/dhrousha.html>.
+}
+
+
+<http://data.cyi.ac.cy/ns/graphs/place/i027> {
+    place:i027 a def:Place;
+               dc:identifier "027";
+               rdfs:label "Kampos";
+	       rdfs:label "Kambos";
+	       cidoc:p87_is_identified_by coordinates:i34-8875_32-62917;
+               owl:sameAs <http://sws.geonames.org/16769> ; 
+               owl:sameAs <http://en.wikipedia.org/wiki/Kampos,_Cyprus>;
+	       cidoc:P89_falls_within place:i025.
+
+    coordinates:i34-8875_32-62917 a def:UTMCoordinates;
+	rdfs:label "lat:34.8875, long:32.62917";
+	def:latitude "34.8875"; 
+        def:longitude "32.62917";
+	def:xyzfounder person:i001;
+	def:GeoNamessource <http://www.geonames.org/16769/kambos.html>.
+}
+
+
+<http://data.cyi.ac.cy/ns/graphs/place/i028> {
+    place:i028 a def:Place;
+               dc:identifier "028";
+               rdfs:label "Marion";
+	       rdfs:label "Marión";
+	       cidoc:p87_is_identified_by coordinates:i35-03477_32-42706;
+               owl:sameAs <http://sws.geonames.org/19187> ; 
+               owl:sameAs <http://en.wikipedia.org/wiki/Marion,_Cyprus>;
+	       cidoc:P89_falls_within place:i025.
+
+    coordinates:i35-03477_32-42706 a def:UTMCoordinates;
+	rdfs:label "lat:35.03477, long:32.42706";
+	def:latitude "35.03477"; 
+        def:longitude "32.42706";
+	def:xyzfounder person:i001;
+	def:GeoNamessource <http://www.geonames.org/19187/marion.html>.
+}
+
+
+<http://data.cyi.ac.cy/ns/graphs/place/i029> {
+    place:i029 a def:Place;
+               dc:identifier "029";
+               rdfs:label "Panagia";
+	       rdfs:label "Panayia";
+	       cidoc:p87_is_identified_by coordinates:i34-90417_32-63333;
+               owl:sameAs <http://sws.geonames.org/16793> ; 
+               owl:sameAs <http://en.wikipedia.org/wiki/Panagia,_Paphos>;
+	       cidoc:P89_falls_within place:i025.
+
+    coordinates:i334-90417_32-63333 a def:UTMCoordinates;
+	rdfs:label "lat:34.90417, long:32.63333";
+	def:latitude "34.90417"; 
+        def:longitude "32.63333";
+	def:xyzfounder person:i001;
+	def:GeoNamessource <http://www.geonames.org/16793/panayia.html>.
+}
+
+
+<http://data.cyi.ac.cy/ns/graphs/place/i030> {
+    place:i030 a def:Place;
+               dc:identifier "030";
+               rdfs:label "Kyrenia";
+	       cidoc:p87_is_identified_by coordinates:i35-34167_33-31667;
+               owl:sameAs <http://sws.geonames.org/146412> ; 
+               owl:sameAs <http://en.wikipedia.org/wiki/Kyrenia>;
+	       cidoc:P89_falls_within place:i001.
+
+    coordinates:i35-34167_33-31667 a def:UTMCoordinates;
+	rdfs:label "lat:35.34167, long:33.31667";
+	def:latitude "35.34167"; 
+        def:longitude "33.31667";
+	def:xyzfounder person:i001;
+	def:GeoNamessource <http://www.geonames.org/146412/kyrenia.html>.
+}
+
+
+<http://data.cyi.ac.cy/ns/graphs/place/i031> {
+    place:i031 a def:Place;
+               dc:identifier "031";
+               rdfs:label "Lapithos";
+	       rdfs:label "Lapithos/Lambousa City-Site";
+	       cidoc:p87_is_identified_by coordinates:i35-35833_33-20417;
+               owl:sameAs <http://sws.geonames.org/20228> ; 
+               owl:sameAs <http://en.wikipedia.org/wiki/Lapithos>;
+	       cidoc:P89_falls_within place:i030.
+
+    coordinates:i35-35833_33-20417 a def:UTMCoordinates;
+	rdfs:label "lat:35.35833, long:33.20417";
+	def:latitude "35.35833"; 
+        def:longitude "33.20417";
+	def:xyzfounder person:i001;
+	def:GeoNamessource <http://www.geonames.org/20228/lapithos-lambousa-city-site.html>.
+}
+
+
+<http://data.cyi.ac.cy/ns/graphs/place/i032> {
+    place:i032 a def:Place;
+               dc:identifier "032";
+               rdfs:label "Italy";
+	       rdfs:label "Repubblica Italiana";
+	       cidoc:p87_is_identified_by coordinates:i42-83333_12-83333;
+               owl:sameAs <http://sws.geonames.org/3175395> ; 
+               owl:sameAs <http://en.wikipedia.org/wiki/Italy>.
+
+    coordinates:i42-83333_12-83333 a def:UTMCoordinates;
+	rdfs:label "lat:42.83333, long:12.83333";
+	def:latitude "42.83333"; 
+        def:longitude "12.83333";
+	def:xyzfounder person:i001;
+	def:GeoNamessource <http://www.geonames.org/3175395/repubblica-italiana.html>.
+}
+
+
+<http://data.cyi.ac.cy/ns/graphs/place/i033> {
+    place:i033 a def:Place;
+               dc:identifier "033";
+               rdfs:label "Sardinia";
+	       cidoc:p87_is_identified_by coordinates:i40_9;
+               owl:sameAs <http://sws.geonames.org/2523227> ; 
+               owl:sameAs <http://en.wikipedia.org/wiki/Sardinia>;
+	       cidoc:P89_falls_within place:i032.
+
+    coordinates:i40_9 a def:UTMCoordinates;
+	rdfs:label "lat:40, long:9";
+	def:latitude "40"; 
+        def:longitude "9";
+	def:xyzfounder person:i001;
+	def:GeoNamessource <http://www.geonames.org/2523227/sardinia.html>.
+}
+
+
+<http://data.cyi.ac.cy/ns/graphs/place/i034> {
+    place:i034 a def:Place;
+               dc:identifier "034";
+               rdfs:label "Oristano";
+               rdfs:label "Provincia di Oristano";
+	       cidoc:p87_is_identified_by coordinates:i39-9_8-6;
+               owl:sameAs <http://sws.geonames.org/2523962> ; 
+               owl:sameAs <http://en.wikipedia.org/wiki/Oristano>;
+	       cidoc:P89_falls_within place:i033.
+
+    coordinates:i39-9_8-6 a def:UTMCoordinates;
+	rdfs:label "lat:39.9, long:8.6";
+	def:latitude "39.9"; 
+        def:longitude "8.6";
+	def:xyzfounder person:i001;
+	def:GeoNamessource <http://www.geonames.org/2523962/provincia-di-oristano.html>.
+}
+
+
+<http://data.cyi.ac.cy/ns/graphs/place/i035> {
+    place:i035 a def:Place;
+               dc:identifier "035";
+               rdfs:label "Paulilatino";
+	       cidoc:p87_is_identified_by coordinates:i40-0847_8-76449;
+               owl:sameAs <http://sws.geonames.org/3167685> ; 
+               owl:sameAs <http://en.wikipedia.org/wiki/Paulilatino>;
+	       cidoc:P89_falls_within place:i033.
+
+    coordinates:i40-0847_8-76449 a def:UTMCoordinates;
+	rdfs:label "lat:40.0847, long:8.76449";
+	def:latitude "40.0847"; 
+        def:longitude "8.76449";
+	def:xyzfounder person:i001;
+	def:GeoNamessource <http://www.geonames.org/3171371/paulilatino.html>.
+}
+
+
+<http://data.cyi.ac.cy/ns/graphs/place/i036> {
+    place:i036 a def:Place;
+               dc:identifier "036";
+               rdfs:label "Santuario nuragico di Santa Cristina";
+               rdfs:label "Santa Cristina";
+	       cidoc:p87_is_identified_by coordinates:i40-05_8-71667;
+               owl:sameAs <http://sws.geonames.org/3171371> ; 
+               owl:sameAs <http://it.wikipedia.org/wiki/Santuario_nuragico_di_Santa_Cristina>;
+	       cidoc:P89_falls_within place:i033.
+
+    coordinates:i40-05_8-71667 a def:UTMCoordinates;
+	rdfs:label "lat:40.05, long:8.71667";
+	def:latitude "40.05"; 
+        def:longitude "8.71667";
+	def:xyzfounder person:i001;
+	def:GeoNamessource <http://www.geonames.org/3167685/santa-cristina.html>.
+}
+
+
+<http://data.cyi.ac.cy/ns/graphs/place/i037> {
+    place:i037 a def:Place;
+               dc:identifier "037";
+               rdfs:label "Israel";
+               rdfs:label "State of Israel";
+	       cidoc:p87_is_identified_by coordinates:i31-5_34-75;
+               owl:sameAs <http://sws.geonames.org/294640> ; 
+               owl:sameAs <http://en.wikipedia.org/wiki/Israel>.
+
+    coordinates:i31-5_34-75 a def:UTMCoordinates;
+	rdfs:label "lat:31.5, long:34.75";
+	def:latitude "31.5"; 
+        def:longitude "34.75";
+	def:xyzfounder person:i001;
+	def:GeoNamessource <http://www.geonames.org/294640/state-of-israel.html>.
+}
+
+
+<http://data.cyi.ac.cy/ns/graphs/place/i038> {
+    place:i038 a def:Place;
+               dc:identifier "038";
+               rdfs:label "Jerusalem";
+               rdfs:label "Jerusalem District";
+	       cidoc:p87_is_identified_by coordinates:i31-75_35;
+               owl:sameAs <http://sws.geonames.org/293198> ; 
+               owl:sameAs <http://en.wikipedia.org/wiki/Jerusalem>;
+	       cidoc:P89_falls_within place:i037.
+
+    coordinates:i31-75_35 a def:UTMCoordinates;
+	rdfs:label "lat:31.75, long:35";
+	def:latitude "31.75"; 
+        def:longitude "35";
+	def:xyzfounder person:i001;
+	def:GeoNamessource <http://www.geonames.org/293198/jerusalem-district.html>.
+}
+
+
+<http://data.cyi.ac.cy/ns/graphs/place/i039> {
+    place:i039 a def:Place;
+               dc:identifier "039";
+               rdfs:label "Mount Zion";
+	       cidoc:p87_is_identified_by coordinates:i31-77141_35-22893;
+               owl:sameAs <http://sws.geonames.org/8354430> ; 
+               owl:sameAs <http://en.wikipedia.org/wiki/Mount_Zion>;
+	       cidoc:P89_falls_within place:i038.
+
+    coordinates:i31-77141_35-22893 a def:UTMCoordinates;
+	rdfs:label "lat:31.77141, long:35.22893";
+	def:latitude "31.77141"; 
+        def:longitude "35.22893";
+	def:xyzfounder person:i001;
+	def:GeoNamessource <http://www.geonames.org/8354430/mount-zion.html>.
 }
