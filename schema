@@ -142,6 +142,10 @@
 
     def:displayDate ...
 
+    def:temporalConverageFrom ...
+
+    def:temporalCoverageTo ...
+
     def:pointsSecond a rdf:Property;
             rdfs:domain def:CYIScanner;
             rdfs:range xsd:integer;
