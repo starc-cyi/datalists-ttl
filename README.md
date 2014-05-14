@@ -1,9 +1,9 @@
 datalists
 =========
 
-Raw RDF data in [Turtle](http://www.w3.org/TeamSubmission/turtle/) format for all standard data lists used at STARC. Contains some schema information necessarry to model the lists' resources, as well as CIDOC-CRM dimensions and unit/value entities.
+Working set of raw RDF data in [Turtle](http://www.w3.org/TeamSubmission/turtle/) format for all standard data lists and schema (mostly CIDOC-CRM extensions) used at STARC.
 
-The lists of interest here are:
+The current lists of interest here are:
 
 1. **software** 
 2. **cameras-lenses**
