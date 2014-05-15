@@ -146,9 +146,8 @@
     def:endDate ...
     def:period ...
     def:source ... (range: a URI)
-    def:calibration ... (range: Boolean)
-    
-
+    def:calibration ... (range: Boolean) 
+    def:temporalCoverage ... (domain -> object, range -> timespan)
 
     def:pointsSecond a rdf:Property;
             rdfs:domain def:CYIScanner;
