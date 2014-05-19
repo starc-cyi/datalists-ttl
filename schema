@@ -86,6 +86,41 @@
               rdfs:subClassOf dc:Location;
               rdfs:label "Place".
 
+    ##### Digital Resources #######
+    
+    def:Orthophoto rdfs:subClassOf cidoc:E73_Information_Object;
+            rdfs:comment "";
+            rdfs:label "Orthophoto".
+    
+    def:PDF3D rdfs:subClassOf cidoc:E73_Information_Object;
+            rdfs:comment "";
+            rdfs:label "PDF 3D".
+
+    def:Text rdfs:subClassOf cidoc:E73_Information_Object;
+            rdfs:comment "";
+            rdfs:label "Text".
+
+    def:3DModel rdfs:subClassOf cidoc:E73_Information_Object;
+            rdfs:comment "";
+            rdfs:label "3D Model".
+
+    def:Image rdfs:subClassOf cidoc:E73_Information_Object;
+            rdfs:comment "";
+            rdfs:label "Image".
+
+    def:Video rdfs:subClassOf cidoc:E73_Information_Object;
+            rdfs:comment "";
+            rdfs:label "Video".
+
+    def:Mesh rdfs:subClassOf cidoc:E73_Information_Object;
+            rdfs:comment "";
+            rdfs:label "Mesh".
+
+    def:PointsCloud rdfs:subClassOf cidoc:E73_Information_Object;
+            rdfs:comment "";
+            rdfs:label "Points Cloud".
+
+        
     ##### Dimensions ##############
 
     def:FixedFocalLength ...
@@ -123,10 +158,25 @@
     def:Altitude rdfs:subClassOf cidoc:E54_Dimension;
             rdfs:label "Altitude".
 
+    def:DataWeight rdfs:subClassOf cidoc:E54_Dimension;
+            rdfs:label "Data weight".
+    
+    def:HorizontalResolution rdfs:subClassOf cidoc:E54_Dimension;
+            rdfs:label "Horizontal Resolution".
 
+    def:VerticalResolution rdfs:subClassOf cidoc:E54_Dimension;
+            rdfs:label "Vertical Resolution".
+
+    def:Resolution rdfs:subClassOf cidoc:E54_Dimension;
+            rdfs:label "Resolution".
+    
+    
+    
     #------------------------------------------#
     # Properties ------------------------------#
     #------------------------------------------#
+    
+    ### SubClass dimension properties from cidoc:P43_has_dimension
 
     def:focalLength ...
     
@@ -146,16 +196,27 @@
     def:endDate ...
     def:period ...
     def:source ... (range: a URI)
-    def:calibration ... (range: Boolean) 
+    def:calibration ... (range: Boolean)
     def:temporalCoverage ... (domain -> object, range -> timespan)
 
+    def:software ...
+    
+    def:points ... the number of points in a points cloud
+    def:vertices ...
+    def:faces ...
+    def:dataDecimation ...
+    def:dataCompression ...
+    def:format ...
+
     def:pointsSecond a rdf:Property;
+            rdfs:subClassOf cidoc:P43_has_dimension;
             rdfs:domain def:CYIScanner;
             rdfs:range xsd:integer;
             rdfs:label "Points Second";
             rdfs:comment "".
 
     def:cameraResolution a rdf:Property;
+            rdfs:subClassOf cidoc:P43_has_dimension;
             rdfs:domain def:CYIHardware;
             rdfs:range def:CameraResolution;
             rdfs:label "Camera Resolution";
