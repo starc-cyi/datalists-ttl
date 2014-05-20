@@ -1,1 +1,22 @@
-###
+@Prefix def: <http://data.cyi.ac.cy/ns/def/global/> .
+@Prefix format: <http://data.cyi.ac.cy/ns/data-format/> .
+@Prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@Prefix dc: <http://purl.org/dc/terms/> .
+@Prefix dce: <http://purl.org/dc/elements/1.1/> .
+@Prefix dcmi: <http://purl.org/dc/dcmitype/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+
+<http://data.cyi.ac.cy/ns/graphs/dataformats> {
+
+    format:ipng a dc:MediaTypeOrExtent;
+            dc:identifier "png";
+            dc:description "portable network graphics"
+            rdfs:label "png".        
+}
+
+
+
