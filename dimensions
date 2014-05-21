@@ -20,43 +20,43 @@
     # Dimensions ------------------------------#
     #------------------------------------------#
 
-    focalLength:i35mm a def:FixedFocalLength;
+    focalLength:i35_mm a def:FixedFocalLength;
          rdfs:label "Focal Length: 35 mm";
          cidoc:P90_has_value dimensionValue:i35;
          cidoc:P91_has_unit dimensionUnit:imm.
     
-    focalLength:i20mm a def:FixedFocalLength;
+    focalLength:i20_mm a def:FixedFocalLength;
          rdfs:label "Focal Length: 20 mm";
          cidoc:P90_has_value dimensionValue:i20;
          cidoc:P91_has_unit dimensionUnit:imm.
 
-    focalLength:i24mm a def:FixedFocalLength;
+    focalLength:i24_mm a def:FixedFocalLength;
          rdfs:label "Focal Length: 24 mm";
          cidoc:P90_has_value dimensionValue:i24;
          cidoc:P91_has_unit dimensionUnit:imm.
 
-    focalLength:i105mm a def:FixedFocalLength;
+    focalLength:i105_mm a def:FixedFocalLength;
          rdfs:label "Focal Length: 105 mm";
          cidoc:P90_has_value dimensionValue:i105;
          cidoc:P91_has_unit dimensionUnit:imm.
 
-    focalLength:i70mm200mm a def:VariableFocalLength;
+    focalLength:i70_mm_200_mm a def:VariableFocalLength;
          rdfs:label "Focal Length: 70mm min, 200mm max";
          def:minValue dimensionValue:i70;
          def:maxValue dimensionValue:i200;
          cidoc:P91_has_unit dimensionUnit:imm.
 
-    cameraResolution:i18mpx a def:CameraResolution;
+    cameraResolution:i18_mpx a def:CameraResolution;
          rdfs:label "Camera Resolution: 18 Mpx";
          cidoc:P90_has_value dimensionValue:i18;
          cidoc:P91_has_unit dimensionUnit:impx.
 
-    cameraResolution:i3mpx a def:CameraResolution;
+    cameraResolution:i3_mpx a def:CameraResolution;
          rdfs:label "Camera Resolution: 3 Mpx";
          cidoc:P90_has_value dimensionValue:i3;
          cidoc:P91_has_unit dimensionUnit:impx.
 
-    cameraResolution:i24-5mpx a def:CameraResolution;
+    cameraResolution:i24-5_mpx a def:CameraResolution;
          rdfs:label "Camera Resolution: 24.5 Mpx";
          cidoc:P90_has_value dimensionValue:i24-5;
          cidoc:P91_has_unit dimensionUnit:impx.

@@ -158,18 +158,25 @@
     def:Altitude rdfs:subClassOf cidoc:E54_Dimension;
             rdfs:label "Altitude".
 
-    def:DataWeight rdfs:subClassOf cidoc:E54_Dimension;
-            rdfs:label "Data weight".
+    def:Weight rdfs:subClassOf cidoc:E54_Dimension;
+            rdfs:label "Weight".
     
-    def:HorizontalResolution rdfs:subClassOf cidoc:E54_Dimension;
-            rdfs:label "Horizontal Resolution".
+    ### def:HorizontalResolution rdfs:subClassOf cidoc:E54_Dimension;
+    ###         rdfs:label "Horizontal Resolution".
 
-    def:VerticalResolution rdfs:subClassOf cidoc:E54_Dimension;
-            rdfs:label "Vertical Resolution".
+    ### def:VerticalResolution rdfs:subClassOf cidoc:E54_Dimension;
+    ###         rdfs:label "Vertical Resolution".
 
     def:Resolution rdfs:subClassOf cidoc:E54_Dimension;
             rdfs:label "Resolution".
-    
+   
+    def:Duration rdfs:subClassOf cidoc:E54_Dimension;
+            rdfs:label "Duration".
+
+    def:FrameRate rdfs:subClassOf cidoc:E54_Dimension;
+            rdfs:label "Frame Rate".
+
+
     
     
     #------------------------------------------#
@@ -201,13 +208,27 @@
 
     def:software ...
     
-    def:points ... the number of points in a points cloud
+    def:points ... (the number of points in a points cloud)
     def:vertices ...
     def:faces ...
     def:dataDecimation ...
     def:dataCompression ...
-    def:inputFormat ... subPropertyOf dc:format
-    def:outputFormat ... subPropertyOf dc:format
+    def:inputFormat ... (subPropertyOf dc:format)
+    def:outputFormat ... (subPropertyOf dc:format)
+    def:downloadURL ...
+
+    def:resolution ... (range Resolution)
+    def:horizontalResolution ... (subPropertyOf def:resolution)
+    def:verticalResolution ... (subPropertyOf def:resolution)
+    def:duration ... (range Duration)
+    def:frameRate ... (range FrameRate)
+    def:weight
+    def:height
+    def:width
+    def:area
+    def:perimeter
+    def:volume
+
 
     def:pointsSecond a rdf:Property;
             rdfs:subClassOf cidoc:P43_has_dimension;

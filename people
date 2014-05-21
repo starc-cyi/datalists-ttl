@@ -21,7 +21,7 @@
                 foaf:name "Kyriaki Yiakoupi";
                 rdfs:label "Kyriaki Yiakoupi";
                 dc:identifier "001";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/starc/about-the-center/starc-our-people/itemlist/user/97-kyriaki-yiakoupi.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/starc/about-the-center/starc-our-people/itemlist/user/97-kyriaki-yiakoupi.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i002> {
@@ -31,7 +31,7 @@
                 foaf:name "Georgios Artopoulos";
                 rdfs:label "Georgios Artopoulos";
                 dc:identifier "002";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/160-george-artopoulos.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/160-george-artopoulos.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i003> {
@@ -41,7 +41,7 @@
                 foaf:name "Eleni Athanasiou";
                 rdfs:label "Eleni Athanasiou";
                 dc:identifier "003";
-                rdfs:seeAlso <http://www.cyi.ac.cy/starc/about-the-center/starc-our-people/itemlist/user/171-eleni-athanasiou.html> .
+                foaf:page <http://www.cyi.ac.cy/starc/about-the-center/starc-our-people/itemlist/user/171-eleni-athanasiou.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i004> {
@@ -51,7 +51,7 @@
                 foaf:name "Nikolas Bakirtzis";
                 rdfs:label "Nikolas Bakirtzis";
                 dc:identifier "004";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/starc/about-the-center/starc-our-people/itemlist/user/79-nikolas-bakirtzis.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/starc/about-the-center/starc-our-people/itemlist/user/79-nikolas-bakirtzis.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i005> {
@@ -61,7 +61,7 @@
                 foaf:name "Elena Christophorou";
                 rdfs:label "Elena Christophorou";
                 dc:identifier "005";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/starc/about-the-center/starc-our-people/itemlist/user/80-elena-christophorou.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/starc/about-the-center/starc-our-people/itemlist/user/80-elena-christophorou.html> .
 }
 <http://data.cyi.ac.cy/ns/graphs/person/i006> {
     person:i006 a foaf:Person;
@@ -70,7 +70,7 @@
                 foaf:name "Uros Damnjanovic";
                 rdfs:label "Uros Damnjanovic";
                 dc:identifier "006";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/starc/about-the-center/starc-our-people/itemlist/user/81-uros-damnjanovic.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/starc/about-the-center/starc-our-people/itemlist/user/81-uros-damnjanovic.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i007> {
@@ -80,7 +80,7 @@
                 foaf:name "Svetlana Gasanova";
                 rdfs:label "Svetlana Gasanova";
                 dc:identifier "007";
-                rdfs:seeAlso <http://www.cyi.ac.cy/starc/about-the-center/starc-our-people/itemlist/user/232-Svetlana-Gasanova.html> .
+                foaf:page <http://www.cyi.ac.cy/starc/about-the-center/starc-our-people/itemlist/user/232-Svetlana-Gasanova.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i008> {
@@ -90,7 +90,7 @@
                 foaf:name "Ropertos Georgiou";
                 rdfs:label "Ropertos Georgiou";
                 dc:identifier "008";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/starc/about-the-center/starc-our-people/itemlist/user/82-ropertos-georgiou.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/starc/about-the-center/starc-our-people/itemlist/user/82-ropertos-georgiou.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i009> {
@@ -100,7 +100,7 @@
                 foaf:name "Susan Hazan";
                 rdfs:label "Susan Hazan";
                 dc:identifier "009";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/starc/about-the-center/starc-our-people/itemlist/user/83-susan-hazan.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/starc/about-the-center/starc-our-people/itemlist/user/83-susan-hazan.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i010> {
@@ -110,7 +110,7 @@
                 foaf:name "Sorin Hermon";
                 rdfs:label "Sorin Hermon";
                 dc:identifier "010";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/starc/about-the-center/starc-our-people/itemlist/user/84-sorin-hermon.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/starc/about-the-center/starc-our-people/itemlist/user/84-sorin-hermon.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i011> {
@@ -120,7 +120,7 @@
                 foaf:name "Giancarlo Iannone";
                 rdfs:label "Giancarlo Iannone";
                 dc:identifier "011";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/starc/about-the-center/starc-our-people/itemlist/user/85-giancarlo-iannone.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/starc/about-the-center/starc-our-people/itemlist/user/85-giancarlo-iannone.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i012> {
@@ -130,7 +130,7 @@
                 foaf:name "Loukas Kalisperis";
                 rdfs:label "Loukas Kalisperis";
                 dc:identifier "012";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/86-loukas-kalisperis.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/86-loukas-kalisperis.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i013> {
@@ -140,7 +140,7 @@
                 foaf:name "Alexia Kolosova";
                 rdfs:label "Alexia Kolosova";
                 dc:identifier "013";
-                rdfs:seeAlso <http://www.cyi.ac.cy/starc/about-the-center/starc-our-people/itemlist/user/170-alexia-kolosova.html> .
+                foaf:page <http://www.cyi.ac.cy/starc/about-the-center/starc-our-people/itemlist/user/170-alexia-kolosova.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i04> {
@@ -150,7 +150,7 @@
                 foaf:name "Danai Konstantinidou";
                 rdfs:label "Danai Konstantinidou";
                 dc:identifier "014";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/starc/about-the-center/starc-our-people/itemlist/user/168-danai-konstantinidou.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/starc/about-the-center/starc-our-people/itemlist/user/168-danai-konstantinidou.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i015> {
@@ -160,7 +160,7 @@
                 foaf:name "Christos Koumenides";
                 rdfs:label "Christos Koumenides";
                 dc:identifier "015";
-                rdfs:seeAlso <http://www.cyi.ac.cy/starc/about-the-center/starc-our-people/itemlist/user/227-christos-koumenides.html> .
+                foaf:page <http://www.cyi.ac.cy/starc/about-the-center/starc-our-people/itemlist/user/227-christos-koumenides.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i016> {
@@ -170,7 +170,7 @@
                 foaf:name "Niki Kyriacou";
                 rdfs:label "Niki Kyriacou";
                 dc:identifier "016";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/starc/about-the-center/starc-our-people/itemlist/user/87-niki-kyriacou.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/starc/about-the-center/starc-our-people/itemlist/user/87-niki-kyriacou.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i017> {
@@ -180,7 +180,7 @@
                 foaf:name "Panayiotis Kyriacou";
                 rdfs:label "Panayiotis Kyriacou";
                 dc:identifier "017";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/starc/about-the-center/starc-our-people/itemlist/user/173-panayiotis-kyriacou.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/starc/about-the-center/starc-our-people/itemlist/user/173-panayiotis-kyriacou.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i018> {
@@ -190,7 +190,7 @@
                 foaf:name "Marisa Lau";
                 rdfs:label "Marisa Lau";
                 dc:identifier "018";
-                rdfs:seeAlso <http://www.cyi.ac.cy/starc/about-the-center/starc-our-people/itemlist/user/202-marisa-lau.html> .
+                foaf:page <http://www.cyi.ac.cy/starc/about-the-center/starc-our-people/itemlist/user/202-marisa-lau.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i019> {
@@ -200,7 +200,7 @@
                 foaf:name "Kirsi Lorentz";
                 rdfs:label "Kirsi Lorentz";
                 dc:identifier "019";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/starc/about-the-center/starc-our-people/itemlist/user/88-kirsi-lorentz.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/starc/about-the-center/starc-our-people/itemlist/user/88-kirsi-lorentz.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i020> {
@@ -210,7 +210,7 @@
                 foaf:name "Evi Margaritis";
                 rdfs:label "Evi Margaritis";
                 dc:identifier "020";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/starc/about-the-center/starc-our-people/itemlist/user/161-Evi-Margaritis.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/starc/about-the-center/starc-our-people/itemlist/user/161-Evi-Margaritis.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i021> {
@@ -220,7 +220,7 @@
                 foaf:name "Vera Moitinho";
                 rdfs:label "Vera Moitinho";
                 dc:identifier "021";
-                rdfs:seeAlso <http://www.cyi.ac.cy/starc/about-the-center/starc-our-people/itemlist/user/234-vera-moitinho.html> .
+                foaf:page <http://www.cyi.ac.cy/starc/about-the-center/starc-our-people/itemlist/user/234-vera-moitinho.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i022> {
@@ -230,7 +230,7 @@
                 foaf:name "Franco Niccolucci";
                 rdfs:label "Franco Niccolucci";
                 dc:identifier "022";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/starc/about-the-center/starc-our-people/itemlist/user/92-franco-niccolucci.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/starc/about-the-center/starc-our-people/itemlist/user/92-franco-niccolucci.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i023> {
@@ -240,7 +240,7 @@
                 foaf:name "Denis Pitzalis";
                 rdfs:label "Denis Pitzalis";
                 dc:identifier "023";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/starc/about-the-center/starc-our-people/itemlist/user/93-denis-pitzalis.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/starc/about-the-center/starc-our-people/itemlist/user/93-denis-pitzalis.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i024> {
@@ -250,7 +250,7 @@
                 foaf:name "Christina Roditou";
                 rdfs:label "Christina Roditou";
                 dc:identifier "024";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/starc/about-the-center/starc-our-people/itemlist/user/141-christina-roditou.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/starc/about-the-center/starc-our-people/itemlist/user/141-christina-roditou.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i025> {
@@ -260,7 +260,7 @@
                 foaf:name "Paola Ronzino";
                 rdfs:label "Paola Ronzino";
                 dc:identifier "025";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/starc/about-the-center/starc-our-people/itemlist/user/94-paola-ronzino.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/starc/about-the-center/starc-our-people/itemlist/user/94-paola-ronzino.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i026> {
@@ -270,7 +270,7 @@
                 foaf:name "Georgia Shiaelou";
                 rdfs:label "Georgia Shiaelou";
                 dc:identifier "026";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/starc/about-the-center/starc-our-people/itemlist/user/95-georgia-shiaelou.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/starc/about-the-center/starc-our-people/itemlist/user/95-georgia-shiaelou.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i027> {
@@ -280,7 +280,7 @@
                 foaf:name "Eleni Sophocleous";
                 rdfs:label "Eleni Sophocleous";
                 dc:identifier "027";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/starc/about-the-center/starc-our-people/itemlist/user/188-eleni-sophocleous.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/starc/about-the-center/starc-our-people/itemlist/user/188-eleni-sophocleous.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i028> {
@@ -290,7 +290,7 @@
                 foaf:name "Marina Toumpouri";
                 rdfs:label "Marina Toumpouri";
                 dc:identifier "028";
-                rdfs:seeAlso <http://www.cyi.ac.cy/starc/about-the-center/starc-our-people/itemlist/user/233-marina-toumpouri.html> .
+                foaf:page <http://www.cyi.ac.cy/starc/about-the-center/starc-our-people/itemlist/user/233-marina-toumpouri.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i029> {
@@ -300,7 +300,7 @@
                 foaf:name "Valentina Vassallo";
                 rdfs:label "Valentina Vassallo";
                 dc:identifier "029";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/starc/about-the-center/starc-our-people/itemlist/user/96-valentina-vassallo.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/starc/about-the-center/starc-our-people/itemlist/user/96-valentina-vassallo.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i030> {
@@ -310,7 +310,7 @@
                 foaf:name "Lola Vico";
                 rdfs:label "Lola Vico";
                 dc:identifier "030";
-                rdfs:seeAlso <http://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/235-lola-vico.html> .
+                foaf:page <http://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/235-lola-vico.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i031> {
@@ -329,7 +329,7 @@
                 foaf:name "Mohamed Abd El-Kader";
                 rdfs:label "Mohamed Abd El-Kader";
                 dc:identifier "032";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/46-mohamed-abd-el-kader.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/46-mohamed-abd-el-kader.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i033> {
@@ -339,7 +339,7 @@
                 foaf:name "Marina Faka";
                 rdfs:label "Marina Faka";
                 dc:identifier "033";
-                rdfs:seeAlso <http://www.cyi.ac.cy/cyi/general-information/cyi-administration-people/itemlist/user/172-marina-faka.html> .
+                foaf:page <http://www.cyi.ac.cy/cyi/general-information/cyi-administration-people/itemlist/user/172-marina-faka.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i034> {
@@ -349,7 +349,7 @@
                 foaf:name "Abdou M. Abdel-Rehim";
                 rdfs:label "Abdou M. Abdel-Rehim";
                 dc:identifier "034";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/98-abdou-m-abdel-rehim.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/98-abdou-m-abdel-rehim.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i035> {
@@ -359,7 +359,7 @@
                 foaf:name "Rana Abu Alhaija";
                 rdfs:label "Rana Abu Alhaija";
                 dc:identifier "035";
-                rdfs:seeAlso <http://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/183-Rana-Abu-Alhaija.html> .
+                foaf:page <http://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/183-Rana-Abu-Alhaija.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i036> {
@@ -369,7 +369,7 @@
                 foaf:name "Agapios Agapiou";
                 rdfs:label "Agapios Agapiou";
                 dc:identifier "036";
-                rdfs:seeAlso <http://www.cyi.ac.cy/cyi/general-information/cyi-administration-people/itemlist/user/199-agapios-agapiou.html> .
+                foaf:page <http://www.cyi.ac.cy/cyi/general-information/cyi-administration-people/itemlist/user/199-agapios-agapiou.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i037> {
@@ -379,7 +379,7 @@
                 foaf:name "Constantia Alexandrou";
                 rdfs:label "Constantia Alexandrou";
                 dc:identifier "037";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/99-constantia-alexandrou.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/99-constantia-alexandrou.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i038> {
@@ -389,7 +389,7 @@
                 foaf:name "Loukia Andreou";
                 rdfs:label "Loukia Andreou";
                 dc:identifier "038";
-                rdfs:seeAlso <http://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/184-loukia-andreou.html> .
+                foaf:page <http://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/184-loukia-andreou.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i039> {
@@ -399,7 +399,7 @@
                 foaf:name "Sozanna Andreou";
                 rdfs:label "Sozanna Andreou";
                 dc:identifier "039";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/122-sozanna-andreou.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/122-sozanna-andreou.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i040> {
@@ -409,7 +409,7 @@
                 foaf:name "Avgoustinos Avgousti";
                 rdfs:label "Avgoustinos Avgousti";
                 dc:identifier "040";
-                rdfs:seeAlso <http://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/156-avgoustinos-avgousti.html> .
+                foaf:page <http://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/156-avgoustinos-avgousti.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i041> {
@@ -419,7 +419,7 @@
                 foaf:name "Leonard Barrie";
                 rdfs:label "Leonard Barrie";
                 dc:identifier "041";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/124-leonard-barrie.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/124-leonard-barrie.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i042> {
@@ -429,7 +429,7 @@
                 foaf:name "Tania Biberian";
                 rdfs:label "Tania Biberian";
                 dc:identifier "042";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/101-tania-biberian.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/101-tania-biberian.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i043> {
@@ -439,7 +439,7 @@
                 foaf:name "Aristides Bonanos";
                 rdfs:label "Aristides Bonanos";
                 dc:identifier "043";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/50-aristides-bonanos.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/50-aristides-bonanos.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i044> {
@@ -449,7 +449,7 @@
                 foaf:name "Adriana Bruggeman";
                 rdfs:label "Adriana Bruggeman";
                 dc:identifier "044";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/51-adriana-bruggeman.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/51-adriana-bruggeman.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i045> {
@@ -459,7 +459,7 @@
                 foaf:name "Eroulla Cadd";
                 rdfs:label "Eroulla Cadd";
                 dc:identifier "045";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/52-eroulla-cadd.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/52-eroulla-cadd.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i046> {
@@ -469,7 +469,7 @@
                 foaf:name "Corrado Camera";
                 rdfs:label "Corrado Camera";
                 dc:identifier "046";
-                rdfs:seeAlso <http://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/159-Corrado-Camera.html> .
+                foaf:page <http://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/159-Corrado-Camera.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i047> {
@@ -479,7 +479,7 @@
                 foaf:name "Katerina Charalambous";
                 rdfs:label "Katerina Charalambous";
                 dc:identifier "047";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/53-katerina-charalambous.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/53-katerina-charalambous.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i048> {
@@ -489,7 +489,7 @@
                 foaf:name "Christos Christofi";
                 rdfs:label "Christos Christofi";
                 dc:identifier "048";
-                rdfs:seeAlso <http://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/191-christos-christofi.html> .
+                foaf:page <http://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/191-christos-christofi.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i049> {
@@ -499,7 +499,7 @@
                 foaf:name "George Christophides";
                 rdfs:label "George Christophides";
                 dc:identifier "049";
-                rdfs:seeAlso <http://www.cyi.ac.cy/cyi/general-information/cyi-administration-people/itemlist/user/203-George-Christophides.html> .
+                foaf:page <http://www.cyi.ac.cy/cyi/general-information/cyi-administration-people/itemlist/user/203-George-Christophides.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i050> {
@@ -509,7 +509,7 @@
                 foaf:name "Theodoros Christoudias";
                 rdfs:label "Theodoros Christoudias";
                 dc:identifier "050";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/102-theodoros-christoudias.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/102-theodoros-christoudias.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i051> {
@@ -519,7 +519,7 @@
                 foaf:name "Katiana Constantinidou";
                 rdfs:label "Katiana Constantinidou";
                 dc:identifier "051";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/149-katiana-constantinidou.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/149-katiana-constantinidou.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i051> {
@@ -529,7 +529,7 @@
                 foaf:name "Marios Demetriades";
                 rdfs:label "Marios Demetriades";
                 dc:identifier "051";
-                rdfs:seeAlso <http://www.cyi.ac.cy/cyi/general-information/cyi-administration-people/itemlist/user/219-marios-demetriades.html> .
+                foaf:page <http://www.cyi.ac.cy/cyi/general-information/cyi-administration-people/itemlist/user/219-marios-demetriades.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i052> {
@@ -539,7 +539,7 @@
                 foaf:name "Andries De Vries";
                 rdfs:label "Andries De Vries";
                 dc:identifier "052";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/55-andries-de-vries.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/55-andries-de-vries.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i053> {
@@ -549,7 +549,7 @@
                 foaf:name "Chara Dikomitou";
                 rdfs:label "Chara Dikomitou";
                 dc:identifier "053";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/127-chara-dikomitou.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/127-chara-dikomitou.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i054> {
@@ -559,7 +559,7 @@
                 foaf:name "Hakan Djuma";
                 rdfs:label "Hakan Djuma";
                 dc:identifier "054";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/56-hakan-djuma.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/56-hakan-djuma.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i055> {
@@ -569,7 +569,7 @@
                 foaf:name "Marinos Eliades";
                 rdfs:label "Marinos Eliades";
                 dc:identifier "055";
-                rdfs:seeAlso <http://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/176-marinos-eliades.html> .
+                foaf:page <http://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/176-marinos-eliades.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i056> {
@@ -579,7 +579,7 @@
                 foaf:name "Kamil Erguler";
                 rdfs:label "Kamil Erguler";
                 dc:identifier "056";
-                rdfs:seeAlso <https://www.cyi.ac.cy/eewrc/about-the-center/eewrc-our-people/itemlist/user/196-kamil-erguler.html> .
+                foaf:page <https://www.cyi.ac.cy/eewrc/about-the-center/eewrc-our-people/itemlist/user/196-kamil-erguler.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i057> {
@@ -589,7 +589,7 @@
                 foaf:name "Stelios Erotokritou";
                 rdfs:label "Stelios Erotokritou";
                 dc:identifier "057";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/104-stelios-erotokritou.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/104-stelios-erotokritou.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i058> {
@@ -599,7 +599,7 @@
                 foaf:name "Marina Evriviadou";
                 rdfs:label "Marina Evriviadou";
                 dc:identifier "058";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/153-marina-evriviadou.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/153-marina-evriviadou.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i059> {
@@ -609,7 +609,7 @@
                 foaf:name "Christos Fountoukis";
                 rdfs:label "Christos Fountoukis";
                 dc:identifier "059";
-                rdfs:seeAlso <http://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/223-christos-fountoukis.html> .
+                foaf:page <http://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/223-christos-fountoukis.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i060> {
@@ -619,7 +619,7 @@
                 foaf:name "Nestor Fylaktos";
                 rdfs:label "Nestor Fylaktos";
                 dc:identifier "060";
-                rdfs:seeAlso <http://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/187-nestor-fylaktos.html> .
+                foaf:page <http://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/187-nestor-fylaktos.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i061> {
@@ -629,7 +629,7 @@
                 foaf:name "Ronald Garrido";
                 rdfs:label "Ronald Garrido";
                 dc:identifier "061";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/129-ronald-garrido.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/129-ronald-garrido.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i062> {
@@ -639,7 +639,7 @@
                 foaf:name "Stalo Gavrielidou";
                 rdfs:label "Stalo Gavrielidou";
                 dc:identifier "062";
-                rdfs:seeAlso <http://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/192-stalo-gavrielidou.html> .
+                foaf:page <http://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/192-stalo-gavrielidou.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i063> {
@@ -649,7 +649,7 @@
                 foaf:name "John Georgiadis";
                 rdfs:label "John Georgiadis";
                 dc:identifier "063";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/58-john-georgiadis.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/58-john-georgiadis.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i064> {
@@ -659,7 +659,7 @@
                 foaf:name "Marios Georgiou";
                 rdfs:label "Marios Georgiou";
                 dc:identifier "064";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/59-marios-georgiou.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/59-marios-georgiou.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i065> {
@@ -669,7 +669,7 @@
                 foaf:name "Despina Giannadaki";
                 rdfs:label "Despina Giannadaki";
                 dc:identifier "065";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/147-despina-giannadaki.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/147-despina-giannadaki.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i066> {
@@ -679,7 +679,7 @@
                 foaf:name "Elias Giannakis";
                 rdfs:label "Elias Giannakis";
                 dc:identifier "066";
-                rdfs:seeAlso <http://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/178-elias-giannakis.html> .
+                foaf:page <http://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/178-elias-giannakis.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i067> {
@@ -689,7 +689,7 @@
                 foaf:name "Panos Hadjinicolaou";
                 rdfs:label "Panos Hadjinicolaou";
                 dc:identifier "067";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/61-panos-hadjinicolaou.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/61-panos-hadjinicolaou.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i068> {
@@ -699,7 +699,7 @@
                 foaf:name "Thanasis Hadzilacos";
                 rdfs:label "Thanasis Hadzilacos";
                 dc:identifier "068";
-                rdfs:seeAlso <http://www.cyi.ac.cy/castorc/about-the-center/castorc-our-people/itemlist/user/218-thanasis-hadzilacos.html> .
+                foaf:page <http://www.cyi.ac.cy/castorc/about-the-center/castorc-our-people/itemlist/user/218-thanasis-hadzilacos.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i069> {
@@ -709,7 +709,7 @@
                 foaf:name "Iosif Hafez";
                 rdfs:label "Iosif Hafez";
                 dc:identifier "069";
-                rdfs:seeAlso <http://www.cyi.ac.cy/cyi/general-information/cyi-administration-people/itemlist/user/200-iosif-hafez.html> .
+                foaf:page <http://www.cyi.ac.cy/cyi/general-information/cyi-administration-people/itemlist/user/200-iosif-hafez.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i070> {
@@ -719,7 +719,7 @@
                 foaf:name "Chariklia Hephaestou" ;
                 rdfs:label "Chariklia Hephaestou";
                 dc:identifier "070";
-                rdfs:seeAlso <https://www.cyi.ac.cy/cyi/general-information/cyi-administration-people/itemlist/user/186-Charis-Hephaestou.html> .
+                foaf:page <https://www.cyi.ac.cy/cyi/general-information/cyi-administration-people/itemlist/user/186-Charis-Hephaestou.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i071> {
@@ -729,7 +729,7 @@
                 foaf:name "Stelios Ioannou";
                 rdfs:label "Stelios Ioannou";
                 dc:identifier "071";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/62-stelios-ioannou.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/62-stelios-ioannou.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i072> {
@@ -739,7 +739,7 @@
                 foaf:name "Nicolas Jarraud";
                 rdfs:label "Nicolas Jarraud";
                 dc:identifier "072";
-                rdfs:seeAlso <http://www.cyi.ac.cy/eewrc/about-the-center/eewrc-our-people/itemlist/user/225-Nicolas-Jarraud.html> .
+                foaf:page <http://www.cyi.ac.cy/eewrc/about-the-center/eewrc-our-people/itemlist/user/225-Nicolas-Jarraud.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i073> {
@@ -749,7 +749,7 @@
                 foaf:name "Carlos Jimenez";
                 rdfs:label "Carlos Jimenez";
                 dc:identifier "073";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/150-carlos-jimenez.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/150-carlos-jimenez.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i074> {
@@ -759,7 +759,7 @@
                 foaf:name "Christos Kallidonis";
                 rdfs:label "Christos Kallidonis";
                 dc:identifier "074";
-                rdfs:seeAlso <http://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/166-christos-kallidonis.html> .
+                foaf:page <http://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/166-christos-kallidonis.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i075> {
@@ -769,7 +769,7 @@
                 foaf:name "Loukas Kalisperis";
                 rdfs:label "Loukas Kalisperis";
                 dc:identifier "075";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/86-loukas-kalisperis.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/86-loukas-kalisperis.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i076> {
@@ -779,7 +779,7 @@
                 foaf:name "George Kallouris";
                 rdfs:label "George Kallouris";
                 dc:identifier "076";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/130-george-kallouris.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/130-george-kallouris.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i077> {
@@ -789,7 +789,7 @@
                 foaf:name "Christos Keleshis";
                 rdfs:label "Christos Keleshis";
                 dc:identifier "077";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/63-christos-keleshis.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/63-christos-keleshis.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i078> {
@@ -799,7 +799,7 @@
                 foaf:name "Elena Kleanthous";
                 rdfs:label "Elena Kleanthous";
                 dc:identifier "078";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/131-elena-kleanthous.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/131-elena-kleanthous.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i079> {
@@ -809,7 +809,7 @@
                 foaf:name "Konstantinos Kleovoulou";
                 rdfs:label "Konstantinos Kleovoulou";
                 dc:identifier "079";
-                rdfs:seeAlso <http://www.cyi.ac.cy/cyi/general-information/cyi-administration-people/itemlist/user/205-konstantinos-kleovoulou.html> .
+                foaf:page <http://www.cyi.ac.cy/cyi/general-information/cyi-administration-people/itemlist/user/205-konstantinos-kleovoulou.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i080> {
@@ -819,7 +819,7 @@
                 foaf:name "Klaus Klingmüller";
                 rdfs:label "Klaus Klingmüller";
                 dc:identifier "080";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/107-klaus-klingm%C3%BCller.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/107-klaus-klingm%C3%BCller.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i081> {
@@ -829,7 +829,7 @@
                 foaf:name "Eliana Koutrouza";
                 rdfs:label "Eliana Koutrouza";
                 dc:identifier "081";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/132-eliana-koutrouza.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/132-eliana-koutrouza.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i082> {
@@ -839,7 +839,7 @@
                 foaf:name "Loizos Koutsantonis";
                 rdfs:label "Loizos Koutsantonis";
                 dc:identifier "082";
-                rdfs:seeAlso <http://www.cyi.ac.cy/castorc/about-the-center/castorc-our-people/itemlist/user/169-loizos-koutsantonis.html> .
+                foaf:page <http://www.cyi.ac.cy/castorc/about-the-center/castorc-our-people/itemlist/user/169-loizos-koutsantonis.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i083> {
@@ -849,7 +849,7 @@
                 foaf:name "Giannis Koutsou";
                 rdfs:label "Giannis Koutsou";
                 dc:identifier "083";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/109-giannis-koutsou.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/109-giannis-koutsou.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i084> {
@@ -859,7 +859,7 @@
                 foaf:name "Maria Kyriacou";
                 rdfs:label "Maria Kyriacou";
                 dc:identifier "084";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/134-maria-kyriacou.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/134-maria-kyriacou.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i085> {
@@ -869,7 +869,7 @@
                 foaf:name "Manfred A. Lange";
                 rdfs:label "Manfred A. Lange";
                 dc:identifier "085";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/65-manfred-a-lange.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/65-manfred-a-lange.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i086> {
@@ -879,7 +879,7 @@
                 foaf:name "Jos Lelieveld";
                 rdfs:label "Jos Lelieveld";
                 dc:identifier "086";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/67-jos-lelieveld.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/67-jos-lelieveld.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i087> {
@@ -889,7 +889,7 @@
                 foaf:name "Christos Lemesios";
                 rdfs:label "Christos Lemesios";
                 dc:identifier "087";
-                rdfs:seeAlso <http://www.cyi.ac.cy/castorc/about-the-center/castorc-our-people/itemlist/user/206-christos-lemesios.html> .
+                foaf:page <http://www.cyi.ac.cy/castorc/about-the-center/castorc-our-people/itemlist/user/206-christos-lemesios.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i088> {
@@ -899,7 +899,7 @@
                 foaf:name "Zev Levin";
                 rdfs:label "Zev Levin";
                 dc:identifier "088";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/68-zev-levin.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/68-zev-levin.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i089> {
@@ -909,7 +909,7 @@
                 foaf:name "Thekla Loizou";
                 rdfs:label "Thekla Loizou";
                 dc:identifier "089";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/110-thekla-loizou.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/110-thekla-loizou.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i090> {
@@ -919,7 +919,7 @@
                 foaf:name "Malgosia Lubczynska";
                 rdfs:label "Malgosia Lubczynska";
                 dc:identifier "090";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/148-malgosia-lubczynska.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/148-malgosia-lubczynska.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i091> {
@@ -929,7 +929,7 @@
                 foaf:name "Marina Manoura";
                 rdfs:label "Marina Manoura";
                 dc:identifier "091";
-                rdfs:seeAlso <http://www.cyi.ac.cy/eewrc/about-the-center/eewrc-our-people/itemlist/user/226-marina-manoura.html> .
+                foaf:page <http://www.cyi.ac.cy/eewrc/about-the-center/eewrc-our-people/itemlist/user/226-marina-manoura.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i092> {
@@ -939,7 +939,7 @@
                 foaf:name "Costas Marakkos";
                 rdfs:label "Costas Marakkos";
                 dc:identifier "092";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/162-costas-marakkos.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/162-costas-marakkos.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i093> {
@@ -949,7 +949,7 @@
                 foaf:name "Lefteris Markou";
                 rdfs:label "Lefteris Markou";
                 dc:identifier "093";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/111-lefteris-markou.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/111-lefteris-markou.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i094> {
@@ -959,7 +959,7 @@
                 foaf:name "Christiana Melodias";
                 rdfs:label "Christiana Melodias";
                 dc:identifier "094";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/135-christiana-melodias.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/135-christiana-melodias.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i095> {
@@ -969,7 +969,7 @@
                 foaf:name "Swen Metzger";
                 rdfs:label "Swen Metzger";
                 dc:identifier "095";
-                rdfs:seeAlso <http://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/177-swen-metzger.html> .
+                foaf:page <http://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/177-swen-metzger.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i096> {
@@ -979,7 +979,7 @@
                 foaf:name "Hendrik Merx";
                 rdfs:label "Hendrik Merx";
                 dc:identifier "096";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/112-hendrik-merx.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/112-hendrik-merx.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i097> {
@@ -989,7 +989,7 @@
                 foaf:name "Chrystalla Michael";
                 rdfs:label "Chrystalla Michael";
                 dc:identifier "097";
-                rdfs:seeAlso <http://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/185-chrystalla-michael.html> .
+                foaf:page <http://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/185-chrystalla-michael.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i098> {
@@ -999,7 +999,7 @@
                 foaf:name "Marielena Michalatou";
                 rdfs:label "Marielena Michalatou";
                 dc:identifier "098";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/90-marielena-michalatou.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/90-marielena-michalatou.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i099> {
@@ -1009,7 +1009,7 @@
                 foaf:name "Nikos Mihalopoulos";
                 rdfs:label "Nikos Mihalopoulos";
                 dc:identifier "099";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/69-nikos-mihalopoulos.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/69-nikos-mihalopoulos.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i100> {
@@ -1019,7 +1019,7 @@
                 foaf:name "Alaric Montenon";
                 rdfs:label "Alaric Montenon";
                 dc:identifier "100";
-                rdfs:seeAlso <http://www.cyi.ac.cy/eewrc/about-the-center/eewrc-our-people/itemlist/user/231-Alaric-Montenon.html> .
+                foaf:page <http://www.cyi.ac.cy/eewrc/about-the-center/eewrc-our-people/itemlist/user/231-Alaric-Montenon.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i101> {
@@ -1029,7 +1029,7 @@
                 foaf:name "Andreas Panteli";
                 rdfs:label "Andreas Panteli";
                 dc:identifier "101";
-                rdfs:seeAlso <http://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/195-andreas-panteli.html> .
+                foaf:page <http://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/195-andreas-panteli.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i102> {
@@ -1039,7 +1039,7 @@
                 foaf:name "Costas N. Papanicolas";
                 rdfs:label "Costas N. Papanicolas";
                 dc:identifier "102";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/138-costas-n-papanicolas.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/138-costas-n-papanicolas.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i103> {
@@ -1049,7 +1049,7 @@
                 foaf:name "Maria Petrou";
                 rdfs:label "Maria Petrou";
                 dc:identifier "103";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/139-maria-petrou-tsolakki.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/139-maria-petrou-tsolakki.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i104> {
@@ -1059,7 +1059,7 @@
                 foaf:name "Marcus Petschlies";
                 rdfs:label "Marcus Petschlies";
                 dc:identifier "104";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/114-marcus-petschlies.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/114-marcus-petschlies.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i105> {
@@ -1069,7 +1069,7 @@
                 foaf:name "Michalis Pikridas";
                 rdfs:label "Michalis Pikridas";
                 dc:identifier "105";
-                rdfs:seeAlso <http://www.cyi.ac.cy/eewrc/about-the-center/eewrc-our-people/itemlist/user/236-michael-pikridas.html> .
+                foaf:page <http://www.cyi.ac.cy/eewrc/about-the-center/eewrc-our-people/itemlist/user/236-michael-pikridas.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i106> {
@@ -1079,7 +1079,7 @@
                 foaf:name "Charita Polydorou";
                 rdfs:label "Charita Polydorou";
                 dc:identifier "106";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/140-charita-polydorou.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/140-charita-polydorou.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i107> {
@@ -1089,7 +1089,7 @@
                 foaf:name "Yiannis Proestos";
                 rdfs:label "Yiannis Proestos";
                 dc:identifier "107";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/115-yiannis-proestos.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/115-yiannis-proestos.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i108> {
@@ -1099,7 +1099,7 @@
                 foaf:name "Anna Sakkalli";
                 rdfs:label "Anna Sakkalli";
                 dc:identifier "108";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/44-anna-sakkalli.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/44-anna-sakkalli.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i109> {
@@ -1109,7 +1109,7 @@
                 foaf:name "Klaus Schilling";
                 rdfs:label "Klaus Schilling";
                 dc:identifier "109";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/116-klaus-schilling.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/116-klaus-schilling.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i110> {
@@ -1119,7 +1119,7 @@
                 foaf:name "Pantelitsa Schiza";
                 rdfs:label "Pantelitsa Schiza";
                 dc:identifier "110";
-                rdfs:seeAlso <http://www.cyi.ac.cy/cyi/general-information/cyi-administration-people/itemlist/user/201-Pantelitsa-Schiza.html> .
+                foaf:page <http://www.cyi.ac.cy/cyi/general-information/cyi-administration-people/itemlist/user/201-Pantelitsa-Schiza.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i111> {
@@ -1129,7 +1129,7 @@
                 foaf:name "Constantinos Sophocleous";
                 rdfs:label "Constantinos Sophocleous";
                 dc:identifier "111";
-                rdfs:seeAlso <http://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/189-constantinos-sophocleous.html> .
+                foaf:page <http://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/189-constantinos-sophocleous.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i112> {
@@ -1139,7 +1139,7 @@
                 foaf:name "Jung-Keun Song-Petridou";
                 rdfs:label "Jung-Keun Song-Petridou";
                 dc:identifier "112";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/143-jung-keun-song-petridou.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/143-jung-keun-song-petridou.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i113> {
@@ -1149,7 +1149,7 @@
                 foaf:name "Efstathios Stavrakis";
                 rdfs:label "Efstathios Stavrakis";
                 dc:identifier "113";
-                rdfs:seeAlso <http://www.cyi.ac.cy/castorc/about-the-center/castorc-our-people/itemlist/user/216-efstathios-stavrakis.html> .
+                foaf:page <http://www.cyi.ac.cy/castorc/about-the-center/castorc-our-people/itemlist/user/216-efstathios-stavrakis.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i114> {
@@ -1159,7 +1159,7 @@
                 foaf:name "Konstantinos Stergiopoulos";
                 rdfs:label "Konstantinos Stergiopoulos";
                 dc:identifier "114";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/42-konstantinos-stergiopoulos.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/42-konstantinos-stergiopoulos.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i115> {
@@ -1169,7 +1169,7 @@
                 foaf:name "Efsthathios G. Stiliaris";
                 rdfs:label "Efsthathios G. Stiliaris";
                 dc:identifier "115";
-                rdfs:seeAlso <http://www.cyi.ac.cy/eewrc/about-the-center/eewrc-our-people/itemlist/user/197-efstathios-stiliaris.html> .
+                foaf:page <http://www.cyi.ac.cy/eewrc/about-the-center/eewrc-our-people/itemlist/user/197-efstathios-stiliaris.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i116> {
@@ -1179,7 +1179,7 @@
                 foaf:name "Giannos Stylianou";
                 rdfs:label "Giannos Stylianou";
                 dc:identifier "116";
-                rdfs:seeAlso <http://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/167-giannos-stylianou.html> .
+                foaf:page <http://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/167-giannos-stylianou.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i117> {
@@ -1189,7 +1189,7 @@
                 foaf:name "Pavlos Tsiartas";
                 rdfs:label "Pavlos Tsiartas";
                 dc:identifier "117";
-                rdfs:seeAlso <http://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/73-pavlos-tsiartas.html> .
+                foaf:page <http://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/73-pavlos-tsiartas.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i118> {
@@ -1199,7 +1199,7 @@
                 foaf:name "Ellie Tsioli";
                 rdfs:label "Ellie Tsioli";
                 dc:identifier "118";
-                rdfs:seeAlso <http://www.cyi.ac.cy/eewrc/about-the-center/eewrc-our-people/itemlist/user/179-ellie-tsioli.html> .
+                foaf:page <http://www.cyi.ac.cy/eewrc/about-the-center/eewrc-our-people/itemlist/user/179-ellie-tsioli.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i119> {
@@ -1209,7 +1209,7 @@
                 foaf:name "George Tsouloupas";
                 rdfs:label "George Tsouloupas";
                 dc:identifier "119";
-                rdfs:seeAlso <https://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/118-george-tsouloupas.html> .
+                foaf:page <https://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/118-george-tsouloupas.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i120> {
@@ -1219,7 +1219,7 @@
                 foaf:name "Filippos Tymvios";
                 rdfs:label "Filippos Tymvios";
                 dc:identifier "120";
-                rdfs:seeAlso <http://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/157-filippos-tymvios.html> .
+                foaf:page <http://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/157-filippos-tymvios.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i121> {
@@ -1229,7 +1229,7 @@
                 foaf:name "Patrikios Tymvios";
                 rdfs:label "Patrikios Tymvios";
                 dc:identifier "121";
-                rdfs:seeAlso <http://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/144-patrikios-tymvios.html> .
+                foaf:page <http://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/144-patrikios-tymvios.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i122> {
@@ -1239,7 +1239,7 @@
                 foaf:name "Evangelos Tyrlis";
                 rdfs:label "Evangelos Tyrlis";
                 dc:identifier "122";
-                rdfs:seeAlso <http://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/74-evangelos-tyrlis.html> .
+                foaf:page <http://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/74-evangelos-tyrlis.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i123> {
@@ -1249,7 +1249,7 @@
                 foaf:name "Alejandro Vaquero Avilés-Casco";
                 rdfs:label "Alejandro Vaquero Avilés-Casco";
                 dc:identifier "123";
-                rdfs:seeAlso <http://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/120-alejandro-vaquero-avil%C3%A9s-casco.html> .
+                foaf:page <http://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/120-alejandro-vaquero-avil%C3%A9s-casco.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i124> {
@@ -1259,7 +1259,7 @@
                 foaf:name "Dina Vlachou";
                 rdfs:label "Dina Vlachou";
                 dc:identifier "124";
-                rdfs:seeAlso <http://www.cyi.ac.cy/eewrc/about-the-center/eewrc-our-people/itemlist/user/204-dina-vlachou.html> .
+                foaf:page <http://www.cyi.ac.cy/eewrc/about-the-center/eewrc-our-people/itemlist/user/204-dina-vlachou.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i125> {
@@ -1269,7 +1269,7 @@
                 foaf:name "Evgeny Votyakov";
                 rdfs:label "Evgeny Votyakov";
                 dc:identifier "125";
-                rdfs:seeAlso <http://www.cyi.ac.cy/eewrc/about-the-center/eewrc-our-people/itemlist/user/180-evgeny-votyakov.html> .
+                foaf:page <http://www.cyi.ac.cy/eewrc/about-the-center/eewrc-our-people/itemlist/user/180-evgeny-votyakov.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i126> {
@@ -1279,7 +1279,7 @@
                 foaf:name "Mihalis Vrekoussis";
                 rdfs:label "Mihalis Vrekoussis";
                 dc:identifier "126";
-                rdfs:seeAlso <http://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/155-mihalis-vrekoussis.html> .
+                foaf:page <http://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/155-mihalis-vrekoussis.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i127> {
@@ -1289,7 +1289,7 @@
                 foaf:name "Joanna Waldock";
                 rdfs:label "Joanna Waldock";
                 dc:identifier "127";
-                rdfs:seeAlso <http://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/75-joanna-waldock.html> .
+                foaf:page <http://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/75-joanna-waldock.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i128> {
@@ -1299,7 +1299,7 @@
                 foaf:name "Jens Wiegand";
                 rdfs:label "Jens Wiegand";
                 dc:identifier "128";
-                rdfs:seeAlso <http://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/151-jens-wiegand.html> .
+                foaf:page <http://www.cyi.ac.cy/index.php/castorc/about-the-center/castorc-our-people/itemlist/user/151-jens-wiegand.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i129> {
@@ -1309,7 +1309,7 @@
                 foaf:name "Jonathan Williams";
                 rdfs:label "Jonathan Williams";
                 dc:identifier "129";
-                rdfs:seeAlso <http://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/154-jonathan-williams.html> .
+                foaf:page <http://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/154-jonathan-williams.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i130> {
@@ -1319,7 +1319,7 @@
                 foaf:name "Michalis Yiangou";
                 rdfs:label "Michalis Yiangou";
                 dc:identifier "130";
-                rdfs:seeAlso <http://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/146-michalis-yiangou.html> .
+                foaf:page <http://www.cyi.ac.cy/index.php/cyi/general-information/cyi-administration-people/itemlist/user/146-michalis-yiangou.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i131> {
@@ -1329,7 +1329,7 @@
                 foaf:name "Georgios Zittis";
                 rdfs:label "Georgios Zittis";
                 dc:identifier "131";
-                rdfs:seeAlso <http://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/76-georgios-zittis.html> .
+                foaf:page <http://www.cyi.ac.cy/index.php/eewrc/about-the-center/eewrc-our-people/itemlist/user/76-georgios-zittis.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i132> {
@@ -1339,7 +1339,7 @@
                 foaf:name "Christos Zoumides";
                 rdfs:label "Christos Zoumides";
                 dc:identifier "132";
-                rdfs:seeAlso <http://www.cyi.ac.cy/eewrc/about-the-center/eewrc-our-people/itemlist/user/238-Christos-Zoumides.html> .
+                foaf:page <http://www.cyi.ac.cy/eewrc/about-the-center/eewrc-our-people/itemlist/user/238-Christos-Zoumides.html> .
 }
 
 <http://data.cyi.ac.cy/ns/graphs/person/i133> {

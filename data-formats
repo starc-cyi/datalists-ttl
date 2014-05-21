@@ -1,5 +1,5 @@
 @Prefix def: <http://data.cyi.ac.cy/ns/def/global/> .
-@Prefix format: <http://data.cyi.ac.cy/ns/data-format/> .
+@Prefix format: <http://data.cyi.ac.cy/ns/dataformat/> .
 @Prefix cidoc: <http://www.cidoc-crm.org/cidoc-crm/> .
 @Prefix dc: <http://purl.org/dc/terms/> .
 @Prefix dce: <http://purl.org/dc/elements/1.1/> .
