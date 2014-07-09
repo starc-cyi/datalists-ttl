@@ -1,6 +1,6 @@
 @Prefix def: <http://data.cyi.ac.cy/ns/def/global/> .
 @Prefix focalLength: <http://data.cyi.ac.cy/ns/dimension/focallength/> .
-@Prefix cameraResolution: <http://data.cyi.ac.cy/ns/dimension/cameraresolution/> .
+@Prefix resolution: <http://data.cyi.ac.cy/ns/dimension/resolution/> .
 @Prefix dimensionType: <http://data.cyi.ac.cy/ns/dimension/type/> .
 @Prefix dimensionValue: <http://data.cyi.ac.cy/ns/dimension/value/> .
 @Prefix dimensionUnit: <http://data.cyi.ac.cy/ns/dimension/unit/> .
@@ -46,18 +46,18 @@
          def:maxValue dimensionValue:i200;
          cidoc:P91_has_unit dimensionUnit:imm.
 
-    cameraResolution:i18_mpx a def:CameraResolution;
-         rdfs:label "Camera Resolution: 18 Mpx";
+    resolution:i18_mpx a def:Resolution;
+         rdfs:label "Resolution: 18 Mpx";
          cidoc:P90_has_value dimensionValue:i18;
          cidoc:P91_has_unit dimensionUnit:impx.
 
-    cameraResolution:i3_mpx a def:CameraResolution;
-         rdfs:label "Camera Resolution: 3 Mpx";
+    resolution:i3_mpx a def:Resolution;
+         rdfs:label "Resolution: 3 Mpx";
          cidoc:P90_has_value dimensionValue:i3;
          cidoc:P91_has_unit dimensionUnit:impx.
 
-    cameraResolution:i24-5_mpx a def:CameraResolution;
-         rdfs:label "Camera Resolution: 24.5 Mpx";
+    resolution:i24-5_mpx a def:Resolution;
+         rdfs:label "Resolution: 24.5 Mpx";
          cidoc:P90_has_value dimensionValue:i24-5;
          cidoc:P91_has_unit dimensionUnit:impx.
 

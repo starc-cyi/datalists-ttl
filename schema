@@ -10,9 +10,10 @@
 
 <http://data.cyi.ac.cy/ns/graphs/defs> {
 
-    #--------------------------------------------#
-    # Classes -----------------------------------#
-    #--------------------------------------------#
+    #-------------------------------------------------------------#
+    #-------------------------------------------------------------#
+    # Classes ----------------------------------------------------#
+    #-------------------------------------------------------------#
 
     ##### Object ############### test
 
@@ -100,7 +101,7 @@
             rdfs:comment "";
             rdfs:label "Text".
 
-    def:3DModel rdfs:subClassOf cidoc:E73_Information_Object;
+    def:ThreeDModel rdfs:subClassOf cidoc:E73_Information_Object;
             rdfs:comment "";
             rdfs:label "3D Model".
 
@@ -127,9 +128,13 @@
 
     def:VariableFocalLength ...
 
-    def:CameraResolution rdfs:subClassOf cidoc:E54_Dimension;
-            rdfs:comment "The resolution of a camera, typically given in mega pixels.";
-            rdfs:label "Camera Resolution".
+    def:DataCompression ...
+
+    def:DataDecimation ...
+
+    ### def:CameraResolution rdfs:subClassOf cidoc:E54_Dimension;
+    ###         rdfs:comment "The resolution of a camera, typically given in mega pixels.";
+    ###         rdfs:label "Camera Resolution".
     
     def:Perimeter rdfs:subClassOf cidoc:E54_Dimension;
             rdfs:comment "The perimeter of an object, digital or physical.";
@@ -169,31 +174,84 @@
 
     def:Resolution rdfs:subClassOf cidoc:E54_Dimension;
             rdfs:label "Resolution".
-   
+    
     def:Duration rdfs:subClassOf cidoc:E54_Dimension;
             rdfs:label "Duration".
 
     def:FrameRate rdfs:subClassOf cidoc:E54_Dimension;
             rdfs:label "Frame Rate".
 
+    
+    ##### Activities #############################################
+    ##### may need to change these - use E55_Type instead... #####
+    
 
+##    def:DataAcquisition rdfs:subClassOf cidoc:E65_Creation;
+##            rdfs:label "Data acquisition".
+
+##    def:DataPostProcessing rdfs:subClassOf cidoc:E65_Creation;
+##            rdfs:label "Data post processing".
+
+##    def:Photography rdfs:subClassOf def:DataAcquisition;
+##            rdfs:label "Photography".
+
+##    def:Photogrammetry rdfs:subClassOf def:Photography;
+##            rdfs:label "Photogrammetry".
     
+##    def:PhotogrammetryPostProc rdfs:subClassOf def:DataPostProcessing;
+##            rdfs:label "Photogrammetry Post Processing".
+
+##    def:ThreeDScanning rdfs:subClassOf def:DataAcquisition;
+##            rdfs:label "3D Scanning".
+
+##    def:ThreeDScanningPostProc rdfs:subClassOf def:DataPostProcessing;
+##            rdfs:label "3D Scanning Post Processing".
+
+##    def:TopographicSurveying rdfs:subClassOf def:DataAcquisition;
+##            rdfs:label "Topographic Surveying".
+   
+
+
+    def:Photogrammetry rdfs:subClassOf cidoc:E65_Creation;
+    rdfs:label "Photogrammetry".
+
+    def:Photography rdfs:subClassOf cidoc:E65_Creation;
+		rdfs:label "Photography".
+
+    def:ThreeDScanning rdfs:subClassOf cidoc:E65_Creation;
+		rdfs:label "3D Scanning".
+
+		def:Scripting rdfs:subClassOf cidoc:E65_Creation;
+    rdfs:label "Scripting".
+
+  	def:VideoEditing rdfs:subClassOf cidoc:E65_Creation;
+    rdfs:label "Video Editing".
+
+
+
+    ##### Coordinates ##################
+   
+    def:UTMCoordinates rdfs:subClassOf cidoc:E47_Spatial_Coordinates;
+            rdfs:label "UTM Coordinates".
+
+
+
+    #-------------------------------------------------------------#
+    # Properties -------------------------------------------------#
+    #-------------------------------------------------------------#
     
-    #------------------------------------------#
-    # Properties ------------------------------#
-    #------------------------------------------#
     
     ### SubClass dimension properties from cidoc:P43_has_dimension
 
-    def:focalLength ...
+    def:focalLength ...dim
     
     def:minValue ...
 
     def:maxValue ...
 
-    def:latitude ...
+    def:latitude ...domain -> UTMCoordinates
  
-    def:longitude ...
+    def:longitude ...domain -> UTMCoordinates
     
     def:museumInventory ...
 
@@ -211,8 +269,8 @@
     def:points ... (the number of points in a points cloud)
     def:vertices ...
     def:faces ...
-    def:dataDecimation ...
-    def:dataCompression ...
+    def:dataDecimation ...dim
+    def:dataCompression ...dim
     def:inputFormat ... (subPropertyOf dc:format)
     def:outputFormat ... (subPropertyOf dc:format)
     def:downloadURL ...
@@ -220,7 +278,7 @@
     def:resolution ... (range Resolution)
     def:horizontalResolution ... (subPropertyOf def:resolution)
     def:verticalResolution ... (subPropertyOf def:resolution)
-    def:duration ... (range Duration)
+    def:duration ...
     def:frameRate ... (range FrameRate)
     def:weight
     def:height
@@ -240,7 +298,7 @@
     def:cameraResolution a rdf:Property;
             rdfs:subClassOf cidoc:P43_has_dimension;
             rdfs:domain def:CYIHardware;
-            rdfs:range def:CameraResolution;
+            rdfs:range def:Resolution;
             rdfs:label "Camera Resolution";
             rdfs:comment "The resolution of a camera, typical given in mega pixels. This has domain CYI Hardware as it may appear as an attribute of integrated cameras inside laser scanners.".
 
@@ -264,7 +322,7 @@
 
     def:serialNumber a rdf:Property;
             rdfs:domain def:CYIEquipment;
-            rdfs:range sd:string;
+            rdfs:range xsd:string;
             rdfs:label "Serial Number";
             rdfs:comment "The serial number associated with a hardware/software tool.".
 
